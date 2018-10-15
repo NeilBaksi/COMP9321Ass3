@@ -5,7 +5,7 @@ import Jumbotron from '../components/Jumbotron.jsx';
 import Dropdown from '../components/Dropdown.jsx';
 import {Typeahead} from 'react-bootstrap-typeahead';
 import places from '../components/places.jsx';
-
+import crimes from '../components/crimes.jsx';
 
 
 class Search extends Component {
@@ -61,32 +61,7 @@ class Search extends Component {
           key: 'location'
         }
       ],
-      crime: [
-        {
-          id: 0,
-          title: 'Murder',
-          selected: false,
-          key: 'crime'
-        },
-        {
-          id: 1,
-          title: 'Assault',
-          selected: false,
-          key: 'crime'
-        },
-        {
-          id: 2,
-          title: 'Theft',
-          selected: false,
-          key: 'crimes'
-        },
-        {
-          id: 3,
-          title: 'Fraud',
-          selected: false,
-          key: 'crime'
-        }
-      ],
+      crime: crimes,
     }
   }
 
