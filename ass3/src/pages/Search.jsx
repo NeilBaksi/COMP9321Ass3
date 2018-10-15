@@ -15,58 +15,16 @@ class Search extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.state = {
       currentLocation: {
-          title: '',
+          Title: 'Sydney',
         },
       currentCrime: ' ',
-      selected:' ',
-      location: [
-        {
-          id: 0,
-          title: 'Kensington',
-          Murder: 5,
-          Assault: 10,
-          Theft: 3,
-          Fraud: 8,
-          selected: false,
-          key: 'location'
-        },
-        {
-          id: 1,
-          title: 'Sydney',
-          Murder: 0,
-          Assault: 11,
-          Theft: 9,
-          Fraud: 3,
-          selected: false,
-          key: 'location'
-        },
-        {
-          id: 2,
-          title: 'Rhodes',
-          Murder: 2,
-          Assault: 1,
-          Theft: 13,
-          Fraud: 0,
-          selected: false,
-          key: 'location'
-        },
-        {
-          id: 3,
-          title: 'Randwick',
-          Murder: 1,
-          Assault: 9,
-          Theft: 2,
-          Fraud: 18,
-          selected: false,
-          key: 'location'
-        }
-      ],
+      location: places,
       crime: crimes,
     }
   }
 
   handleChange(e) {
-    this.setState({currentLocation:{title: e.target.value}});
+    this.setState({currentLocation:{Title: e.target.value}});
   };
 
    getData = () => {
@@ -82,7 +40,7 @@ class Search extends Component {
     crimes.forEach(item => item.selected = false);
     crimes[id].selected = true;
     if(stateKey === 'location'){
-      this.setState({currentLocation: locations[id]})        
+      this.setState({currentLocation: locations[id]})
     }
     if (stateKey === 'crime') {
       this.setState({currentCrime: crimes[id]})
@@ -92,43 +50,38 @@ class Search extends Component {
 
 
   render() {
-    // console.log(this.state.currentCrime.title);
-    let currLoc = this.state.currentLocation
-    let currCrim = this.state.currentCrime.title
+    let currLoc = this.state.currentLocation.Title
+    let currCrim = this.state.currentCrime.Title
     
-    let map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
-    if(this.state.selected !== undefined){
-      map = "https://www.google.com/maps/embed/v1/place?q="+this.state.selected[0].name+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
-    }
-
-    
+    let map = "https://www.google.com/maps/embed/v1/place?q="+currLoc+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+        
     let stat;
-    if (currLoc.title && currCrim) {
-      stat = <h1>{currCrim} in {currLoc.title} : {currLoc[currCrim]}</h1>
+    if (currLoc && currCrim) {
+      stat = <h1>{currCrim} in {currLoc} : {currLoc[currCrim]}</h1>
     }
 
     return (
       <div>
         <Navbar />
-        <Jumbotron title="Search" subtitle="Search anything with A, it'll pop up on the map. Or use the 2 dropdown menus"/>
+        <Jumbotron title="Search" subtitle="Search anything, it'll pop up on the map."/>
         <div className="container">
           <h2>Search</h2>
           <form>
             <Typeahead
               type="text"
-              labelKey="name"
+              labelKey="Title"
               options={places}
               placeholder="Choose a suburb..."
-              onChange={(selected) => this.setState({selected})}
+              onChange={(selected) => this.setState({currentLocation: selected[0]})}
             />
           </form>
-          <br />
+         {/*} <br />
           <Dropdown
             titleHelper="Location"
             title="Select location"
             list={this.state.location}
             resetThenSet={this.resetThenSet}
-          />
+          />*/}
           <br />
           <Dropdown
             titleHelper="Crime"
