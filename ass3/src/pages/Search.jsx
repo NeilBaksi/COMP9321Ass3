@@ -6,6 +6,10 @@ import Dropdown from '../components/Dropdown.jsx';
 import {Typeahead} from 'react-bootstrap-typeahead';
 import places from '../components/places.jsx';
 import crimes from '../components/crimes.jsx';
+import MonthPickerInput from 'react-month-picker-input';
+import {Grid, Row, Col } from 'react-bootstrap';
+require('react-month-picker-input/dist/react-month-picker-input.css');
+
 
 
 class Search extends Component {
@@ -64,35 +68,67 @@ class Search extends Component {
       <div>
         <Navbar />
         <Jumbotron title="Search" subtitle="Search anything, it'll pop up on the map."/>
-        <div className="container">
-          <h2>Search</h2>
-          <form>
-            <Typeahead
-              type="text"
-              labelKey="Title"
-              options={places}
-              placeholder="Choose a suburb..."
-              onChange={(selected) => this.setState({currentLocation: selected[0]})}
-            />
-          </form>
-         {/*} <br />
-          <Dropdown
-            titleHelper="Location"
-            title="Select location"
-            list={this.state.location}
-            resetThenSet={this.resetThenSet}
-          />*/}
-          <br />
-          <Dropdown
-            titleHelper="Crime"
-            title="Select crime"
-            list={this.state.crime}
-            resetThenSet={this.resetThenSet}
-          />
-          <br />
-          {stat}
-          <iframe width="600" height="450" frameBorder="0" src={map} allowFullScreen></iframe>
-        </div>
+        <Grid>
+          <Row className="show-grid">
+            <Col md={12}>
+              <h2>Search</h2>
+              <form>
+                <Typeahead
+                  type="text"
+                  labelKey="Title"
+                  options={places}
+                  placeholder="Choose a suburb..."
+                  onChange={(selected) => this.setState({currentLocation: selected[0]})}
+                />
+              </form>
+              <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <Dropdown
+                titleHelper="Crime"
+                title="Select crime"
+                list={this.state.crime}
+                resetThenSet={this.resetThenSet}
+              />
+              <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12}>
+              <div>
+                <MonthPickerInput
+                  onChange={function(maskedValue, selectedYear, selectedMonth) {
+                    console.log(maskedValue, selectedYear, selectedMonth);
+                  }}
+                />
+                <br />
+                <MonthPickerInput
+                  onChange={function(maskedValue, selectedYear, selectedMonth) {
+                    console.log(maskedValue, selectedYear, selectedMonth);
+                  }}
+                />
+              </div>
+              <br />
+            </Col>
+          </Row>
+
+          <Row>
+            <Col md={12} mdPush={3}>
+              {stat}
+              <br />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12} mdPush={3}>
+              <iframe width="600" height="450" frameBorder="0" src={map} allowFullScreen></iframe>
+            </Col>
+          </Row>
+
+        </Grid>
         <Footer />
       </div>
     );
