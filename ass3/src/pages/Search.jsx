@@ -3,9 +3,8 @@ import Footer from '../components/Footer.jsx';
 import Navbar from '../components/Navbar.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 import Dropdown from '../components/Dropdown.jsx';
-import {FormControl} from 'react-bootstrap'
 import {Typeahead} from 'react-bootstrap-typeahead';
-import options from '../components/places.jsx';
+import places from '../components/places.jsx';
 
 
 
@@ -127,6 +126,12 @@ class Search extends Component {
       map = "https://www.google.com/maps/embed/v1/place?q="+this.state.selected[0].name+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
     }
 
+    
+    let stat;
+    if (currLoc.title && currCrim) {
+      stat = <h1>{currCrim} in {currLoc.title} : {currLoc[currCrim]}</h1>
+    }
+
     return (
       <div>
         <Navbar />
@@ -137,15 +142,10 @@ class Search extends Component {
             <Typeahead
               type="text"
               labelKey="name"
-              options={options}
+              options={places}
               placeholder="Choose a suburb..."
               onChange={(selected) => this.setState({selected})}
             />
-           {/*} <FormControl
-              type="text"
-              value={this.state.currentLocation.title}
-              onChange={this.handleChange}
-            />*/}
           </form>
           <br />
           <Dropdown
@@ -162,7 +162,7 @@ class Search extends Component {
             resetThenSet={this.resetThenSet}
           />
           <br />
-          <h1>{currCrim} in {currLoc.title} : {currLoc[currCrim]}</h1>
+          {stat}
           <iframe width="600" height="450" frameBorder="0" src={map} allowFullScreen></iframe>
         </div>
         <Footer />

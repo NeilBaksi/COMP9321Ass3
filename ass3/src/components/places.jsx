@@ -2,7 +2,6 @@ export default [
  {
    "id": 1,
    "name": "Aarons Pass",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2850,
@@ -19,7 +18,6 @@ export default [
  {
    "id": 2,
    "name": "Abba River",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6280,
@@ -36,7 +34,6 @@ export default [
  {
    "id": 3,
    "name": "Abbey",
-   "urban_area": "Busselton",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6280,
@@ -53,7 +50,6 @@ export default [
  {
    "id": 4,
    "name": "Abbeyard",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3737,
@@ -70,7 +66,6 @@ export default [
  {
    "id": 5,
    "name": "Abbeywood",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4613,
@@ -87,7 +82,6 @@ export default [
  {
    "id": 6,
    "name": "Abbotsbury",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2176,
@@ -104,7 +98,6 @@ export default [
  {
    "id": 7,
    "name": "Abbotsford",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2046,
@@ -121,7 +114,6 @@ export default [
  {
    "id": 8,
    "name": "Abbotsford",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -138,7 +130,6 @@ export default [
  {
    "id": 9,
    "name": "Abbotsford",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3067,
@@ -155,7 +146,6 @@ export default [
  {
    "id": 10,
    "name": "Abbotsham",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7315,
@@ -172,7 +162,6 @@ export default [
  {
    "id": 11,
    "name": "Abels Bay",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7112,
@@ -189,7 +178,6 @@ export default [
  {
    "id": 12,
    "name": "Abercorn",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4627,
@@ -206,7 +194,6 @@ export default [
  {
    "id": 13,
    "name": "Abercrombie",
-   "urban_area": "Bathurst",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2795,
@@ -223,7 +210,6 @@ export default [
  {
    "id": 14,
    "name": "Abercrombie River",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2795,
@@ -240,7 +226,6 @@ export default [
  {
    "id": 15,
    "name": "Aberdare",
-   "urban_area": "Cessnock",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2325,
@@ -257,7 +242,6 @@ export default [
  {
    "id": 16,
    "name": "Aberdeen",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2336,
@@ -274,7 +258,6 @@ export default [
  {
    "id": 17,
    "name": "Aberdeen",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7310,
@@ -291,7 +274,6 @@ export default [
  {
    "id": 18,
    "name": "Aberfeldie",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3040,
@@ -308,7 +290,6 @@ export default [
  {
    "id": 19,
    "name": "Aberfeldy",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3825,
@@ -325,7 +306,6 @@ export default [
  {
    "id": 20,
    "name": "Aberfoyle",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2350,
@@ -342,7 +322,6 @@ export default [
  {
    "id": 21,
    "name": "Aberfoyle Park",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5159,
@@ -359,7 +338,6 @@ export default [
  {
    "id": 22,
    "name": "Aberglasslyn",
-   "urban_area": "Maitland",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2320,
@@ -376,7 +354,6 @@ export default [
  {
    "id": 23,
    "name": "Abergowrie",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4850,
@@ -393,7 +370,6 @@ export default [
  {
    "id": 24,
    "name": "Abermain",
-   "urban_area": "Kurri Kurri - Weston",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2326,
@@ -410,7 +386,6 @@ export default [
  {
    "id": 25,
    "name": "Abernethy",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2325,
@@ -427,7 +402,6 @@ export default [
  {
    "id": 26,
    "name": "Abingdon Downs",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4892,
@@ -444,7 +418,6 @@ export default [
  {
    "id": 27,
    "name": "Abington",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2350,
@@ -461,7 +434,6 @@ export default [
  {
    "id": 28,
    "name": "Abington",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4660,
@@ -478,7 +450,6 @@ export default [
  {
    "id": 29,
    "name": "Acacia Creek",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2476,
@@ -495,7 +466,6 @@ export default [
  {
    "id": 30,
    "name": "Acacia Gardens",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2763,
@@ -512,7 +482,6 @@ export default [
  {
    "id": 31,
    "name": "Acacia Hills",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 822,
@@ -529,7 +498,6 @@ export default [
  {
    "id": 32,
    "name": "Acacia Hills",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7306,
@@ -546,7 +514,6 @@ export default [
  {
    "id": 33,
    "name": "Acacia Ridge",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4110,
@@ -563,7 +530,6 @@ export default [
  {
    "id": 34,
    "name": "Acheron",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3714,
@@ -580,7 +546,6 @@ export default [
  {
    "id": 35,
    "name": "Acland",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4401,
@@ -597,7 +562,6 @@ export default [
  {
    "id": 36,
    "name": "Acton",
-   "urban_area": "Canberra",
    "state_code": "ACT",
    "state": "Australian Capital Territory",
    "postcode": 2601,
@@ -614,7 +578,6 @@ export default [
  {
    "id": 37,
    "name": "Acton",
-   "urban_area": "Burnie - Somerset",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7320,
@@ -631,7 +594,6 @@ export default [
  {
    "id": 38,
    "name": "Acton Park",
-   "urban_area": "Hobart",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7170,
@@ -648,7 +610,6 @@ export default [
  {
    "id": 39,
    "name": "Acton Park",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6280,
@@ -665,7 +626,6 @@ export default [
  {
    "id": 40,
    "name": "Ada",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3833,
@@ -682,7 +642,6 @@ export default [
  {
    "id": 41,
    "name": "Adaminaby",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2629,
@@ -699,7 +658,6 @@ export default [
  {
    "id": 42,
    "name": "Adams Estate",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3984,
@@ -716,7 +674,6 @@ export default [
  {
    "id": 43,
    "name": "Adamstown",
-   "urban_area": "Newcastle",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2289,
@@ -733,7 +690,6 @@ export default [
  {
    "id": 44,
    "name": "Adamstown Heights",
-   "urban_area": "Newcastle",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2289,
@@ -750,7 +706,6 @@ export default [
  {
    "id": 45,
    "name": "Adamsvale",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6375,
@@ -767,7 +722,6 @@ export default [
  {
    "id": 46,
    "name": "Adare",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4343,
@@ -784,7 +738,6 @@ export default [
  {
    "id": 47,
    "name": "Adavale",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4474,
@@ -801,7 +754,6 @@ export default [
  {
    "id": 48,
    "name": "Addington",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3352,
@@ -818,7 +770,6 @@ export default [
  {
    "id": 49,
    "name": "Adelaide",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5000,
@@ -835,7 +786,6 @@ export default [
  {
    "id": 50,
    "name": "Adelaide Lead",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3465,
@@ -852,7 +802,6 @@ export default [
  {
    "id": 51,
    "name": "Adelaide Park",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4703,
@@ -869,7 +818,6 @@ export default [
  {
    "id": 52,
    "name": "Adelaide River",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 846,
@@ -886,7 +834,6 @@ export default [
  {
    "id": 53,
    "name": "Adelong",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2729,
@@ -903,7 +850,6 @@ export default [
  {
    "id": 54,
    "name": "Adjungbilly",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2727,
@@ -920,7 +866,6 @@ export default [
  {
    "id": 55,
    "name": "Advancetown",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4211,
@@ -937,7 +882,6 @@ export default [
  {
    "id": 56,
    "name": "Adventure Bay",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7150,
@@ -954,7 +898,6 @@ export default [
  {
    "id": 57,
    "name": "Aeroglen",
-   "urban_area": "Cairns",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4870,
@@ -971,7 +914,6 @@ export default [
  {
    "id": 58,
    "name": "Afterlee",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2474,
@@ -988,7 +930,6 @@ export default [
  {
    "id": 59,
    "name": "Agery",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5558,
@@ -1005,7 +946,6 @@ export default [
  {
    "id": 60,
    "name": "Agnes",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3962,
@@ -1022,7 +962,6 @@ export default [
  {
    "id": 61,
    "name": "Agnes Banks",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2753,
@@ -1039,7 +978,6 @@ export default [
  {
    "id": 62,
    "name": "Agnes Water",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4677,
@@ -1056,7 +994,6 @@ export default [
  {
    "id": 63,
    "name": "Ainslie",
-   "urban_area": "Canberra",
    "state_code": "ACT",
    "state": "Australian Capital Territory",
    "postcode": 2602,
@@ -1073,7 +1010,6 @@ export default [
  {
    "id": 64,
    "name": "Airdmillan",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4807,
@@ -1090,7 +1026,6 @@ export default [
  {
    "id": 65,
    "name": "Airds",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2560,
@@ -1107,7 +1042,6 @@ export default [
  {
    "id": 66,
    "name": "Aire Valley",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3237,
@@ -1124,7 +1058,6 @@ export default [
  {
    "id": 67,
    "name": "Aireys Inlet",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3231,
@@ -1141,7 +1074,6 @@ export default [
  {
    "id": 68,
    "name": "Airlie Beach",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4802,
@@ -1158,7 +1090,6 @@ export default [
  {
    "id": 69,
    "name": "Airly",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3851,
@@ -1175,7 +1106,6 @@ export default [
  {
    "id": 70,
    "name": "Airville",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4807,
@@ -1192,7 +1122,6 @@ export default [
  {
    "id": 71,
    "name": "Aitkenvale",
-   "urban_area": "Townsville",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4814,
@@ -1209,7 +1138,6 @@ export default [
  {
    "id": 72,
    "name": "Ajana",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6532,
@@ -1226,7 +1154,6 @@ export default [
  {
    "id": 73,
    "name": "Akaroa",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7216,
@@ -1243,7 +1170,6 @@ export default [
  {
    "id": 74,
    "name": "Akolele",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2546,
@@ -1260,7 +1186,6 @@ export default [
  {
    "id": 75,
    "name": "Alabama Hill",
-   "urban_area": "Charters Towers",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4820,
@@ -1277,7 +1202,6 @@ export default [
  {
    "id": 76,
    "name": "Alawa",
-   "urban_area": "Darwin",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 810,
@@ -1294,7 +1218,6 @@ export default [
  {
    "id": 77,
    "name": "Alawoona",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5311,
@@ -1311,7 +1234,6 @@ export default [
  {
    "id": 78,
    "name": "Albacutya",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3424,
@@ -1328,7 +1250,6 @@ export default [
  {
    "id": 79,
    "name": "Albanvale",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3021,
@@ -1345,7 +1266,6 @@ export default [
  {
    "id": 80,
    "name": "Albany",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6330,
@@ -1362,7 +1282,6 @@ export default [
  {
    "id": 81,
    "name": "Albany Creek",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4035,
@@ -1379,7 +1298,6 @@ export default [
  {
    "id": 82,
    "name": "Albert",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2873,
@@ -1396,7 +1314,6 @@ export default [
  {
    "id": 83,
    "name": "Alberta",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4702,
@@ -1413,7 +1330,6 @@ export default [
  {
    "id": 84,
    "name": "Alberton",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4207,
@@ -1430,7 +1346,6 @@ export default [
  {
    "id": 85,
    "name": "Alberton",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5014,
@@ -1447,7 +1362,6 @@ export default [
  {
    "id": 86,
    "name": "Alberton",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7263,
@@ -1464,7 +1378,6 @@ export default [
  {
    "id": 87,
    "name": "Alberton",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3971,
@@ -1481,7 +1394,6 @@ export default [
  {
    "id": 88,
    "name": "Alberton West",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3971,
@@ -1498,7 +1410,6 @@ export default [
  {
    "id": 89,
    "name": "Albert Park",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5014,
@@ -1515,7 +1426,6 @@ export default [
  {
    "id": 90,
    "name": "Albert Park",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3206,
@@ -1532,7 +1442,6 @@ export default [
  {
    "id": 91,
    "name": "Albinia",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4722,
@@ -1549,7 +1458,6 @@ export default [
  {
    "id": 92,
    "name": "Albion",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4010,
@@ -1566,7 +1474,6 @@ export default [
  {
    "id": 93,
    "name": "Albion",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4822,
@@ -1583,7 +1490,6 @@ export default [
  {
    "id": 94,
    "name": "Albion",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3020,
@@ -1600,7 +1506,6 @@ export default [
  {
    "id": 95,
    "name": "Albion Park",
-   "urban_area": "Wollongong",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2527,
@@ -1617,7 +1522,6 @@ export default [
  {
    "id": 96,
    "name": "Albion Park Rail",
-   "urban_area": "Wollongong",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2527,
@@ -1634,7 +1538,6 @@ export default [
  {
    "id": 97,
    "name": "Albury",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2640,
@@ -1651,7 +1554,6 @@ export default [
  {
    "id": 98,
    "name": "Alcomie",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7330,
@@ -1668,7 +1570,6 @@ export default [
  {
    "id": 99,
    "name": "Aldavilla",
-   "urban_area": "Kempsey",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2440,
@@ -1685,7 +1586,6 @@ export default [
  {
    "id": 100,
    "name": "Alderley",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4051,
@@ -1702,7 +1602,6 @@ export default [
  {
    "id": 101,
    "name": "Aldershot",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4650,
@@ -1719,7 +1618,6 @@ export default [
  {
    "id": 102,
    "name": "Aldersyde",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6306,
@@ -1736,7 +1634,6 @@ export default [
  {
    "id": 103,
    "name": "Aldgate",
-   "urban_area": "Crafers - Bridgewater",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5154,
@@ -1753,7 +1650,6 @@ export default [
  {
    "id": 104,
    "name": "Aldinga",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5173,
@@ -1770,7 +1666,6 @@ export default [
  {
    "id": 105,
    "name": "Aldinga Beach",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5173,
@@ -1787,7 +1682,6 @@ export default [
  {
    "id": 106,
    "name": "Aldoga",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4694,
@@ -1804,7 +1698,6 @@ export default [
  {
    "id": 107,
    "name": "Alectown",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2870,
@@ -1821,7 +1714,6 @@ export default [
  {
    "id": 108,
    "name": "Alexander Heights",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6064,
@@ -1838,7 +1730,6 @@ export default [
  {
    "id": 109,
    "name": "Alexandra",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4740,
@@ -1855,7 +1746,6 @@ export default [
  {
    "id": 110,
    "name": "Alexandra",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3714,
@@ -1872,7 +1762,6 @@ export default [
  {
    "id": 111,
    "name": "Alexandra Bridge",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6288,
@@ -1889,7 +1778,6 @@ export default [
  {
    "id": 112,
    "name": "Alexandra Headland",
-   "urban_area": "Sunshine Coast",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4572,
@@ -1906,7 +1794,6 @@ export default [
  {
    "id": 113,
    "name": "Alexandra Hills",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4161,
@@ -1923,7 +1810,6 @@ export default [
  {
    "id": 114,
    "name": "Alexandria",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2015,
@@ -1940,7 +1826,6 @@ export default [
  {
    "id": 115,
    "name": "Alford",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5555,
@@ -1957,7 +1842,6 @@ export default [
  {
    "id": 116,
    "name": "Alfords Point",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2234,
@@ -1974,7 +1858,6 @@ export default [
  {
    "id": 117,
    "name": "Alfred Cove",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6154,
@@ -1991,7 +1874,6 @@ export default [
  {
    "id": 118,
    "name": "Alfredton",
-   "urban_area": "Ballarat",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3350,
@@ -2008,7 +1890,6 @@ export default [
  {
    "id": 119,
    "name": "Alfredtown",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2650,
@@ -2025,7 +1906,6 @@ export default [
  {
    "id": 120,
    "name": "Algester",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4115,
@@ -2042,7 +1922,6 @@ export default [
  {
    "id": 121,
    "name": "Alice",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2469,
@@ -2059,7 +1938,6 @@ export default [
  {
    "id": 122,
    "name": "Alice Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4610,
@@ -2076,7 +1954,6 @@ export default [
  {
    "id": 123,
    "name": "Alice River",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4817,
@@ -2093,7 +1970,6 @@ export default [
  {
    "id": 124,
    "name": "Alice Springs",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 870,
@@ -2110,7 +1986,6 @@ export default [
  {
    "id": 125,
    "name": "Ali Curung",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -2127,7 +2002,6 @@ export default [
  {
    "id": 126,
    "name": "Alison",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2259,
@@ -2144,7 +2018,6 @@ export default [
  {
    "id": 127,
    "name": "Alison",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2420,
@@ -2161,7 +2034,6 @@ export default [
  {
    "id": 128,
    "name": "Alkimos",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6038,
@@ -2178,7 +2050,6 @@ export default [
  {
    "id": 129,
    "name": "Allambee",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3823,
@@ -2195,7 +2066,6 @@ export default [
  {
    "id": 130,
    "name": "Allambee Reserve",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3871,
@@ -2212,7 +2082,6 @@ export default [
  {
    "id": 131,
    "name": "Allambee South",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3871,
@@ -2229,7 +2098,6 @@ export default [
  {
    "id": 132,
    "name": "Allambie Heights",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2100,
@@ -2246,7 +2114,6 @@ export default [
  {
    "id": 133,
    "name": "Allan",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4370,
@@ -2263,7 +2130,6 @@ export default [
  {
    "id": 134,
    "name": "Allandale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2320,
@@ -2280,7 +2146,6 @@ export default [
  {
    "id": 135,
    "name": "Allandale",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4310,
@@ -2297,7 +2162,6 @@ export default [
  {
    "id": 136,
    "name": "Allanooka",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6525,
@@ -2314,7 +2178,6 @@ export default [
  {
    "id": 137,
    "name": "Allans Flat",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3691,
@@ -2331,7 +2194,6 @@ export default [
  {
    "id": 138,
    "name": "Allansford",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3277,
@@ -2348,7 +2210,6 @@ export default [
  {
    "id": 139,
    "name": "Allanson",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6225,
@@ -2365,7 +2226,6 @@ export default [
  {
    "id": 140,
    "name": "Allawah",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2218,
@@ -2382,7 +2242,6 @@ export default [
  {
    "id": 141,
    "name": "Alleena",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2671,
@@ -2399,7 +2258,6 @@ export default [
  {
    "id": 142,
    "name": "Allenby Gardens",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5009,
@@ -2416,7 +2274,6 @@ export default [
  {
    "id": 143,
    "name": "Allendale",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3364,
@@ -2433,7 +2290,6 @@ export default [
  {
    "id": 144,
    "name": "Allendale East",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5291,
@@ -2450,7 +2306,6 @@ export default [
  {
    "id": 145,
    "name": "Allendale North",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5373,
@@ -2467,7 +2322,6 @@ export default [
  {
    "id": 146,
    "name": "Allens Rivulet",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7150,
@@ -2484,7 +2338,6 @@ export default [
  {
    "id": 147,
    "name": "Allenstown",
-   "urban_area": "Rockhampton",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4700,
@@ -2501,7 +2354,6 @@ export default [
  {
    "id": 148,
    "name": "Allenview",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4285,
@@ -2518,7 +2370,6 @@ export default [
  {
    "id": 149,
    "name": "Allestree",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3305,
@@ -2535,7 +2386,6 @@ export default [
  {
    "id": 150,
    "name": "Allgomera",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2441,
@@ -2552,7 +2402,6 @@ export default [
  {
    "id": 151,
    "name": "Alligator Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4740,
@@ -2569,7 +2418,6 @@ export default [
  {
    "id": 152,
    "name": "Alligator Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4816,
@@ -2586,7 +2434,6 @@ export default [
  {
    "id": 153,
    "name": "Allora",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4362,
@@ -2603,7 +2450,6 @@ export default [
  {
    "id": 154,
    "name": "Alloway",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -2620,7 +2466,6 @@ export default [
  {
    "id": 155,
    "name": "Allworth",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2425,
@@ -2637,7 +2482,6 @@ export default [
  {
    "id": 156,
    "name": "Allynbrook",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2311,
@@ -2654,7 +2498,6 @@ export default [
  {
    "id": 157,
    "name": "Alma",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5401,
@@ -2671,7 +2514,6 @@ export default [
  {
    "id": 158,
    "name": "Alma",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3465,
@@ -2688,7 +2530,6 @@ export default [
  {
    "id": 159,
    "name": "Alma",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6535,
@@ -2705,7 +2546,6 @@ export default [
  {
    "id": 160,
    "name": "Almaden",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4871,
@@ -2722,7 +2562,6 @@ export default [
  {
    "id": 161,
    "name": "Alma Park",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2659,
@@ -2739,7 +2578,6 @@ export default [
  {
    "id": 162,
    "name": "Almonds",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3727,
@@ -2756,7 +2594,6 @@ export default [
  {
    "id": 163,
    "name": "Almurta",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3979,
@@ -2773,7 +2610,6 @@ export default [
  {
    "id": 164,
    "name": "Alonnah",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7150,
@@ -2790,7 +2626,6 @@ export default [
  {
    "id": 165,
    "name": "Aloomba",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4871,
@@ -2807,7 +2642,6 @@ export default [
  {
    "id": 166,
    "name": "Alpha",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4724,
@@ -2824,7 +2658,6 @@ export default [
  {
    "id": 167,
    "name": "Alphington",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3078,
@@ -2841,7 +2674,6 @@ export default [
  {
    "id": 168,
    "name": "Alpine",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2575,
@@ -2858,7 +2690,6 @@ export default [
  {
    "id": 169,
    "name": "Alpurrurulam",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 4825,
@@ -2875,7 +2706,6 @@ export default [
  {
    "id": 170,
    "name": "Alsace",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4702,
@@ -2892,7 +2722,6 @@ export default [
  {
    "id": 171,
    "name": "Alstonvale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2477,
@@ -2909,7 +2738,6 @@ export default [
  {
    "id": 172,
    "name": "Alstonville",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2477,
@@ -2926,7 +2754,6 @@ export default [
  {
    "id": 173,
    "name": "Altona",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5351,
@@ -2943,7 +2770,6 @@ export default [
  {
    "id": 174,
    "name": "Altona",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3018,
@@ -2960,7 +2786,6 @@ export default [
  {
    "id": 175,
    "name": "Altona Meadows",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3028,
@@ -2977,7 +2802,6 @@ export default [
  {
    "id": 176,
    "name": "Altona North",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3025,
@@ -2994,7 +2818,6 @@ export default [
  {
    "id": 177,
    "name": "Alton Downs",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4702,
@@ -3011,7 +2834,6 @@ export default [
  {
    "id": 178,
    "name": "Alumy Creek",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2460,
@@ -3028,7 +2850,6 @@ export default [
  {
    "id": 179,
    "name": "Alva",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4807,
@@ -3045,7 +2866,6 @@ export default [
  {
    "id": 180,
    "name": "Alvie",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3249,
@@ -3062,7 +2882,6 @@ export default [
  {
    "id": 181,
    "name": "Alyangula",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 885,
@@ -3079,7 +2898,6 @@ export default [
  {
    "id": 182,
    "name": "Amamoor",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4570,
@@ -3096,7 +2914,6 @@ export default [
  {
    "id": 183,
    "name": "Amamoor Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4570,
@@ -3113,7 +2930,6 @@ export default [
  {
    "id": 184,
    "name": "Amaroo",
-   "urban_area": "Canberra",
    "state_code": "ACT",
    "state": "Australian Capital Territory",
    "postcode": 2914,
@@ -3130,7 +2946,6 @@ export default [
  {
    "id": 185,
    "name": "Amaroo",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2866,
@@ -3147,7 +2962,6 @@ export default [
  {
    "id": 186,
    "name": "Amaroo",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4829,
@@ -3164,7 +2978,6 @@ export default [
  {
    "id": 187,
    "name": "Amata",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 872,
@@ -3181,7 +2994,6 @@ export default [
  {
    "id": 188,
    "name": "Ambania",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6632,
@@ -3198,7 +3010,6 @@ export default [
  {
    "id": 189,
    "name": "Ambarvale",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2560,
@@ -3215,7 +3026,6 @@ export default [
  {
    "id": 190,
    "name": "Amber",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4871,
@@ -3232,7 +3042,6 @@ export default [
  {
    "id": 191,
    "name": "Ambergate",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6280,
@@ -3249,7 +3058,6 @@ export default [
  {
    "id": 192,
    "name": "Amberley",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4306,
@@ -3266,7 +3074,6 @@ export default [
  {
    "id": 193,
    "name": "Ambleside",
-   "urban_area": "Devonport",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7310,
@@ -3283,7 +3090,6 @@ export default [
  {
    "id": 194,
    "name": "Ambrose",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4695,
@@ -3300,7 +3106,6 @@ export default [
  {
    "id": 195,
    "name": "Amby",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4462,
@@ -3317,7 +3122,6 @@ export default [
  {
    "id": 196,
    "name": "Amelup",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6338,
@@ -3334,7 +3138,6 @@ export default [
  {
    "id": 197,
    "name": "American Beach",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5222,
@@ -3351,7 +3154,6 @@ export default [
  {
    "id": 198,
    "name": "American River",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5221,
@@ -3368,7 +3170,6 @@ export default [
  {
    "id": 199,
    "name": "Amherst",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3371,
@@ -3385,7 +3186,6 @@ export default [
  {
    "id": 200,
    "name": "Amiens",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4380,
@@ -3402,7 +3202,6 @@ export default [
  {
    "id": 201,
    "name": "Amity",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4183,
@@ -3419,7 +3218,6 @@ export default [
  {
    "id": 202,
    "name": "Amoonguna",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 873,
@@ -3436,7 +3234,6 @@ export default [
  {
    "id": 203,
    "name": "Amor",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3825,
@@ -3453,7 +3250,6 @@ export default [
  {
    "id": 204,
    "name": "Amosfield",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 4380,
@@ -3470,7 +3266,6 @@ export default [
  {
    "id": 205,
    "name": "Amphitheatre",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3468,
@@ -3487,7 +3282,6 @@ export default [
  {
    "id": 206,
    "name": "Ampilatwatja",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -3504,7 +3298,6 @@ export default [
  {
    "id": 207,
    "name": "Amyton",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5431,
@@ -3521,7 +3314,6 @@ export default [
  {
    "id": 208,
    "name": "Anabranch North",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2648,
@@ -3538,7 +3330,6 @@ export default [
  {
    "id": 209,
    "name": "Anabranch South",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2648,
@@ -3555,7 +3346,6 @@ export default [
  {
    "id": 210,
    "name": "Anakie",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3213,
@@ -3572,7 +3362,6 @@ export default [
  {
    "id": 211,
    "name": "Anama",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5464,
@@ -3589,7 +3378,6 @@ export default [
  {
    "id": 212,
    "name": "Anambah",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2320,
@@ -3606,7 +3394,6 @@ export default [
  {
    "id": 213,
    "name": "Anangu Pitjantjatjara Yankunytjatjara",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 872,
@@ -3623,7 +3410,6 @@ export default [
  {
    "id": 214,
    "name": "Anatye",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -3640,7 +3426,6 @@ export default [
  {
    "id": 215,
    "name": "Ancona",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3715,
@@ -3657,7 +3442,6 @@ export default [
  {
    "id": 216,
    "name": "Andamooka",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5722,
@@ -3674,7 +3458,6 @@ export default [
  {
    "id": 217,
    "name": "Andamooka Station",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5719,
@@ -3691,7 +3474,6 @@ export default [
  {
    "id": 218,
    "name": "Andergrove",
-   "urban_area": "Mackay",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4740,
@@ -3708,7 +3490,6 @@ export default [
  {
    "id": 219,
    "name": "Anderleigh",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4570,
@@ -3725,7 +3506,6 @@ export default [
  {
    "id": 220,
    "name": "Anderson",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3995,
@@ -3742,7 +3522,6 @@ export default [
  {
    "id": 221,
    "name": "Ando",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2631,
@@ -3759,7 +3538,6 @@ export default [
  {
    "id": 222,
    "name": "Andover",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7120,
@@ -3776,7 +3554,6 @@ export default [
  {
    "id": 223,
    "name": "Andrews",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5454,
@@ -3793,7 +3570,6 @@ export default [
  {
    "id": 224,
    "name": "Andrews Farm",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5114,
@@ -3810,7 +3586,6 @@ export default [
  {
    "id": 225,
    "name": "Andromache",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4800,
@@ -3827,7 +3602,6 @@ export default [
  {
    "id": 226,
    "name": "Anduramba",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4355,
@@ -3844,7 +3618,6 @@ export default [
  {
    "id": 227,
    "name": "Anembo",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2621,
@@ -3861,7 +3634,6 @@ export default [
  {
    "id": 228,
    "name": "Angas Plains",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5255,
@@ -3878,7 +3650,6 @@ export default [
  {
    "id": 229,
    "name": "Angaston",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5353,
@@ -3895,7 +3666,6 @@ export default [
  {
    "id": 230,
    "name": "Angas Valley",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5238,
@@ -3912,7 +3682,6 @@ export default [
  {
    "id": 231,
    "name": "Angelo River",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6642,
@@ -3929,7 +3698,6 @@ export default [
  {
    "id": 232,
    "name": "Angledale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2550,
@@ -3946,7 +3714,6 @@ export default [
  {
    "id": 233,
    "name": "Angledool",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2834,
@@ -3963,7 +3730,6 @@ export default [
  {
    "id": 234,
    "name": "Angle Park",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5010,
@@ -3980,7 +3746,6 @@ export default [
  {
    "id": 235,
    "name": "Anglers Reach",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2629,
@@ -3997,7 +3762,6 @@ export default [
  {
    "id": 236,
    "name": "Anglers Rest",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3898,
@@ -4014,7 +3778,6 @@ export default [
  {
    "id": 237,
    "name": "Anglesea",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3230,
@@ -4031,7 +3794,6 @@ export default [
  {
    "id": 238,
    "name": "Angle Vale",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5117,
@@ -4048,7 +3810,6 @@ export default [
  {
    "id": 239,
    "name": "Angourie",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2464,
@@ -4065,7 +3826,6 @@ export default [
  {
    "id": 240,
    "name": "Angurugu",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 822,
@@ -4082,7 +3842,6 @@ export default [
  {
    "id": 241,
    "name": "Anindilyakwa",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 822,
@@ -4099,7 +3858,6 @@ export default [
  {
    "id": 242,
    "name": "Anketell",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6167,
@@ -4116,7 +3874,6 @@ export default [
  {
    "id": 243,
    "name": "Anmatjere",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -4133,7 +3890,6 @@ export default [
  {
    "id": 244,
    "name": "Anna Bay",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2316,
@@ -4150,7 +3906,6 @@ export default [
  {
    "id": 245,
    "name": "Annadale",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5356,
@@ -4167,7 +3922,6 @@ export default [
  {
    "id": 246,
    "name": "Annandale",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2038,
@@ -4184,7 +3938,6 @@ export default [
  {
    "id": 247,
    "name": "Annandale",
-   "urban_area": "Townsville",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4814,
@@ -4201,7 +3954,6 @@ export default [
  {
    "id": 248,
    "name": "Annangrove",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2156,
@@ -4218,7 +3970,6 @@ export default [
  {
    "id": 249,
    "name": "Annerley",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4103,
@@ -4235,7 +3986,6 @@ export default [
  {
    "id": 250,
    "name": "Anniebrook",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6280,
@@ -4252,7 +4002,6 @@ export default [
  {
    "id": 251,
    "name": "Annuello",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3549,
@@ -4269,7 +4018,6 @@ export default [
  {
    "id": 252,
    "name": "Ansons Bay",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7264,
@@ -4286,7 +4034,6 @@ export default [
  {
    "id": 253,
    "name": "Anstead",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4070,
@@ -4303,7 +4050,6 @@ export default [
  {
    "id": 254,
    "name": "Antechamber Bay",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5222,
@@ -4320,7 +4066,6 @@ export default [
  {
    "id": 255,
    "name": "Anthony",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4310,
@@ -4337,7 +4082,6 @@ export default [
  {
    "id": 256,
    "name": "Antigua",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4650,
@@ -4354,7 +4098,6 @@ export default [
  {
    "id": 257,
    "name": "Antill Ponds",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7120,
@@ -4371,7 +4114,6 @@ export default [
  {
    "id": 258,
    "name": "Antonymyre",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6714,
@@ -4388,7 +4130,6 @@ export default [
  {
    "id": 259,
    "name": "Antwerp",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3414,
@@ -4405,7 +4146,6 @@ export default [
  {
    "id": 260,
    "name": "Anula",
-   "urban_area": "Darwin",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 812,
@@ -4422,7 +4162,6 @@ export default [
  {
    "id": 261,
    "name": "Apamurra",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5237,
@@ -4439,7 +4178,6 @@ export default [
  {
    "id": 262,
    "name": "Apoinga",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5413,
@@ -4456,7 +4194,6 @@ export default [
  {
    "id": 263,
    "name": "Apollo Bay",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7150,
@@ -4473,7 +4210,6 @@ export default [
  {
    "id": 264,
    "name": "Apollo Bay",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3233,
@@ -4490,7 +4226,6 @@ export default [
  {
    "id": 265,
    "name": "Appila",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5480,
@@ -4507,7 +4242,6 @@ export default [
  {
    "id": 266,
    "name": "Appin",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2560,
@@ -4524,7 +4258,6 @@ export default [
  {
    "id": 267,
    "name": "Appin",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3579,
@@ -4541,7 +4274,6 @@ export default [
  {
    "id": 268,
    "name": "Appin South",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3579,
@@ -4558,7 +4290,6 @@ export default [
  {
    "id": 269,
    "name": "Appleby",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2340,
@@ -4575,7 +4306,6 @@ export default [
  {
    "id": 270,
    "name": "Applecross",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6153,
@@ -4592,7 +4322,6 @@ export default [
  {
    "id": 271,
    "name": "Applethorpe",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4378,
@@ -4609,7 +4338,6 @@ export default [
  {
    "id": 272,
    "name": "Apple Tree Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4660,
@@ -4626,7 +4354,6 @@ export default [
  {
    "id": 273,
    "name": "Appletree Flat",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2330,
@@ -4643,7 +4370,6 @@ export default [
  {
    "id": 274,
    "name": "Apple Tree Flat",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2850,
@@ -4660,7 +4386,6 @@ export default [
  {
    "id": 275,
    "name": "Apslawn",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7190,
@@ -4677,7 +4402,6 @@ export default [
  {
    "id": 276,
    "name": "Apsley",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2820,
@@ -4694,7 +4418,6 @@ export default [
  {
    "id": 277,
    "name": "Apsley",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7030,
@@ -4711,7 +4434,6 @@ export default [
  {
    "id": 278,
    "name": "Apsley",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3319,
@@ -4728,7 +4450,6 @@ export default [
  {
    "id": 279,
    "name": "Arable",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2630,
@@ -4745,7 +4466,6 @@ export default [
  {
    "id": 280,
    "name": "Arakoon",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2431,
@@ -4762,7 +4482,6 @@ export default [
  {
    "id": 281,
    "name": "Araluen",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2622,
@@ -4779,7 +4498,6 @@ export default [
  {
    "id": 282,
    "name": "Araluen",
-   "urban_area": "Alice Springs",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 870,
@@ -4796,7 +4514,6 @@ export default [
  {
    "id": 283,
    "name": "Araluen",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4570,
@@ -4813,7 +4530,6 @@ export default [
  {
    "id": 284,
    "name": "Aramac",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4726,
@@ -4830,7 +4546,6 @@ export default [
  {
    "id": 285,
    "name": "Aramara",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4620,
@@ -4847,7 +4562,6 @@ export default [
  {
    "id": 286,
    "name": "Arana Hills",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4054,
@@ -4864,7 +4578,6 @@ export default [
  {
    "id": 287,
    "name": "Aranbanga",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4625,
@@ -4881,7 +4594,6 @@ export default [
  {
    "id": 288,
    "name": "Aranda",
-   "urban_area": "Canberra",
    "state_code": "ACT",
    "state": "Australian Capital Territory",
    "postcode": 2614,
@@ -4898,7 +4610,6 @@ export default [
  {
    "id": 289,
    "name": "Ararat",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3377,
@@ -4915,7 +4626,6 @@ export default [
  {
    "id": 290,
    "name": "Aratula",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2714,
@@ -4932,7 +4642,6 @@ export default [
  {
    "id": 291,
    "name": "Aratula",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4309,
@@ -4949,7 +4658,6 @@ export default [
  {
    "id": 292,
    "name": "Arawata",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3951,
@@ -4966,7 +4674,6 @@ export default [
  {
    "id": 293,
    "name": "Arbouin",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4892,
@@ -4983,7 +4690,6 @@ export default [
  {
    "id": 294,
    "name": "Arbuckle",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3858,
@@ -5000,7 +4706,6 @@ export default [
  {
    "id": 295,
    "name": "Arcadia",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2159,
@@ -5017,7 +4722,6 @@ export default [
  {
    "id": 296,
    "name": "Arcadia",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4819,
@@ -5034,7 +4738,6 @@ export default [
  {
    "id": 297,
    "name": "Arcadia",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3631,
@@ -5051,7 +4754,6 @@ export default [
  {
    "id": 298,
    "name": "Arcadia South",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3631,
@@ -5068,7 +4770,6 @@ export default [
  {
    "id": 299,
    "name": "Arcadia Vale",
-   "urban_area": "Newcastle",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2283,
@@ -5085,7 +4786,6 @@ export default [
  {
    "id": 300,
    "name": "Arcadia Valley",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4702,
@@ -5102,7 +4802,6 @@ export default [
  {
    "id": 301,
    "name": "Archdale",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3475,
@@ -5119,7 +4818,6 @@ export default [
  {
    "id": 302,
    "name": "Archdale Junction",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3475,
@@ -5136,7 +4834,6 @@ export default [
  {
    "id": 303,
    "name": "Archer",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 830,
@@ -5153,7 +4850,6 @@ export default [
  {
    "id": 304,
    "name": "Archerfield",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4108,
@@ -5170,7 +4866,6 @@ export default [
  {
    "id": 305,
    "name": "Archer River",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4892,
@@ -5187,7 +4882,6 @@ export default [
  {
    "id": 306,
    "name": "Archerton",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3723,
@@ -5204,7 +4898,6 @@ export default [
  {
    "id": 307,
    "name": "Archies Creek",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3995,
@@ -5221,7 +4914,6 @@ export default [
  {
    "id": 308,
    "name": "Arcoona",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5720,
@@ -5238,7 +4930,6 @@ export default [
  {
    "id": 309,
    "name": "Arcturus",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4722,
@@ -5255,7 +4946,6 @@ export default [
  {
    "id": 310,
    "name": "Ardath",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6419,
@@ -5272,7 +4962,6 @@ export default [
  {
    "id": 311,
    "name": "Ardeer",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3022,
@@ -5289,7 +4978,6 @@ export default [
  {
    "id": 312,
    "name": "Ardglen",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2338,
@@ -5306,7 +4994,6 @@ export default [
  {
    "id": 313,
    "name": "Arding",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2358,
@@ -5323,7 +5010,6 @@ export default [
  {
    "id": 314,
    "name": "Ardlethan",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2665,
@@ -5340,7 +5026,6 @@ export default [
  {
    "id": 315,
    "name": "Ardmona",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3629,
@@ -5357,7 +5042,6 @@ export default [
  {
    "id": 316,
    "name": "Ardross",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6153,
@@ -5374,7 +5058,6 @@ export default [
  {
    "id": 317,
    "name": "Ardrossan",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5571,
@@ -5391,7 +5074,6 @@ export default [
  {
    "id": 318,
    "name": "Areegra",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3480,
@@ -5408,7 +5090,6 @@ export default [
  {
    "id": 319,
    "name": "Areyonga",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -5425,7 +5106,6 @@ export default [
  {
    "id": 320,
    "name": "Argalong",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2720,
@@ -5442,7 +5122,6 @@ export default [
  {
    "id": 321,
    "name": "Argenton",
-   "urban_area": "Newcastle",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2284,
@@ -5459,7 +5138,6 @@ export default [
  {
    "id": 322,
    "name": "Argents Hill",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2449,
@@ -5476,7 +5154,6 @@ export default [
  {
    "id": 323,
    "name": "Argoon",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2707,
@@ -5493,7 +5170,6 @@ export default [
  {
    "id": 324,
    "name": "Argoon",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4702,
@@ -5510,7 +5186,6 @@ export default [
  {
    "id": 325,
    "name": "Argyle",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3523,
@@ -5527,7 +5202,6 @@ export default [
  {
    "id": 326,
    "name": "Argyle",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6239,
@@ -5544,7 +5218,6 @@ export default [
  {
    "id": 327,
    "name": "Argyll",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4721,
@@ -5561,7 +5234,6 @@ export default [
  {
    "id": 328,
    "name": "Ariah Park",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2665,
@@ -5578,7 +5250,6 @@ export default [
  {
    "id": 329,
    "name": "Arkaroola Village",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5732,
@@ -5595,7 +5266,6 @@ export default [
  {
    "id": 330,
    "name": "Arkell",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2795,
@@ -5612,7 +5282,6 @@ export default [
  {
    "id": 331,
    "name": "Arkstone",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2795,
@@ -5629,7 +5298,6 @@ export default [
  {
    "id": 332,
    "name": "Armadale",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3143,
@@ -5646,7 +5314,6 @@ export default [
  {
    "id": 333,
    "name": "Armadale",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6112,
@@ -5663,7 +5330,6 @@ export default [
  {
    "id": 334,
    "name": "Armagh",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5453,
@@ -5680,7 +5346,6 @@ export default [
  {
    "id": 335,
    "name": "Armatree",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2828,
@@ -5697,7 +5362,6 @@ export default [
  {
    "id": 336,
    "name": "Armidale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2350,
@@ -5714,7 +5378,6 @@ export default [
  {
    "id": 337,
    "name": "Armstrong",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3377,
@@ -5731,7 +5394,6 @@ export default [
  {
    "id": 338,
    "name": "Armstrong Beach",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4737,
@@ -5748,7 +5410,6 @@ export default [
  {
    "id": 339,
    "name": "Armstrong Creek",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4520,
@@ -5765,7 +5426,6 @@ export default [
  {
    "id": 340,
    "name": "Armstrong Creek",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3217,
@@ -5782,7 +5442,6 @@ export default [
  {
    "id": 341,
    "name": "Arncliffe",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2205,
@@ -5799,7 +5458,6 @@ export default [
  {
    "id": 342,
    "name": "Arndell Park",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2148,
@@ -5816,7 +5474,6 @@ export default [
  {
    "id": 343,
    "name": "Arno Bay",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5603,
@@ -5833,7 +5490,6 @@ export default [
  {
    "id": 344,
    "name": "Arnold",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 852,
@@ -5850,7 +5506,6 @@ export default [
  {
    "id": 345,
    "name": "Arnold",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3551,
@@ -5867,7 +5522,6 @@ export default [
  {
    "id": 346,
    "name": "Arnold West",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3551,
@@ -5884,7 +5538,6 @@ export default [
  {
    "id": 347,
    "name": "Aroona",
-   "urban_area": "Sunshine Coast",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4551,
@@ -5901,7 +5554,6 @@ export default [
  {
    "id": 348,
    "name": "Arrawarra",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2456,
@@ -5918,7 +5570,6 @@ export default [
  {
    "id": 349,
    "name": "Arrawarra Headland",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2456,
@@ -5935,7 +5586,6 @@ export default [
  {
    "id": 350,
    "name": "Arriga",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4880,
@@ -5952,7 +5602,6 @@ export default [
  {
    "id": 351,
    "name": "Arrino",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6519,
@@ -5969,7 +5618,6 @@ export default [
  {
    "id": 352,
    "name": "Arrowsmith",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6525,
@@ -5986,7 +5634,6 @@ export default [
  {
    "id": 353,
    "name": "Arrowsmith East",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6519,
@@ -6003,7 +5650,6 @@ export default [
  {
    "id": 354,
    "name": "Artarmon",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2064,
@@ -6020,7 +5666,6 @@ export default [
  {
    "id": 355,
    "name": "Arthur River",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7330,
@@ -6037,7 +5682,6 @@ export default [
  {
    "id": 356,
    "name": "Arthur River",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6315,
@@ -6054,7 +5698,6 @@ export default [
  {
    "id": 357,
    "name": "Arthurs Creek",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3099,
@@ -6071,7 +5714,6 @@ export default [
  {
    "id": 358,
    "name": "Arthurs Lake",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7030,
@@ -6088,7 +5730,6 @@ export default [
  {
    "id": 359,
    "name": "Arthurs Seat",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3936,
@@ -6105,7 +5746,6 @@ export default [
  {
    "id": 360,
    "name": "Arthurton",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5572,
@@ -6122,7 +5762,6 @@ export default [
  {
    "id": 361,
    "name": "Arthurville",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2820,
@@ -6139,7 +5778,6 @@ export default [
  {
    "id": 362,
    "name": "Arumbera",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 873,
@@ -6156,7 +5794,6 @@ export default [
  {
    "id": 363,
    "name": "Arumpo",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2715,
@@ -6173,7 +5810,6 @@ export default [
  {
    "id": 364,
    "name": "Arundel",
-   "urban_area": "Gold Coast",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4214,
@@ -6190,7 +5826,6 @@ export default [
  {
    "id": 365,
    "name": "Ascot",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4007,
@@ -6207,7 +5842,6 @@ export default [
  {
    "id": 366,
    "name": "Ascot",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4360,
@@ -6224,7 +5858,6 @@ export default [
  {
    "id": 367,
    "name": "Ascot",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3364,
@@ -6241,7 +5874,6 @@ export default [
  {
    "id": 368,
    "name": "Ascot",
-   "urban_area": "Bendigo",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3551,
@@ -6258,7 +5890,6 @@ export default [
  {
    "id": 369,
    "name": "Ascot",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6104,
@@ -6275,7 +5906,6 @@ export default [
  {
    "id": 370,
    "name": "Ascot Park",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5043,
@@ -6292,7 +5922,6 @@ export default [
  {
    "id": 371,
    "name": "Ascot Vale",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3032,
@@ -6309,7 +5938,6 @@ export default [
  {
    "id": 372,
    "name": "Ashbourne",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5157,
@@ -6326,7 +5954,6 @@ export default [
  {
    "id": 373,
    "name": "Ashbourne",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3442,
@@ -6343,7 +5970,6 @@ export default [
  {
    "id": 374,
    "name": "Ashburton",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3147,
@@ -6360,7 +5986,6 @@ export default [
  {
    "id": 375,
    "name": "Ashbury",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2193,
@@ -6377,7 +6002,6 @@ export default [
  {
    "id": 376,
    "name": "Ashby",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2463,
@@ -6394,7 +6018,6 @@ export default [
  {
    "id": 377,
    "name": "Ashby",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6065,
@@ -6411,7 +6034,6 @@ export default [
  {
    "id": 378,
    "name": "Ashby Heights",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2463,
@@ -6428,7 +6050,6 @@ export default [
  {
    "id": 379,
    "name": "Ashby Island",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2463,
@@ -6445,7 +6066,6 @@ export default [
  {
    "id": 380,
    "name": "Ashcroft",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2168,
@@ -6462,7 +6082,6 @@ export default [
  {
    "id": 381,
    "name": "Ashendon",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6111,
@@ -6479,7 +6098,6 @@ export default [
  {
    "id": 382,
    "name": "Ashfield",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2131,
@@ -6496,7 +6114,6 @@ export default [
  {
    "id": 383,
    "name": "Ashfield",
-   "urban_area": "Bundaberg",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -6513,7 +6130,6 @@ export default [
  {
    "id": 384,
    "name": "Ashfield",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6054,
@@ -6530,7 +6146,6 @@ export default [
  {
    "id": 385,
    "name": "Ashford",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2361,
@@ -6547,7 +6162,6 @@ export default [
  {
    "id": 386,
    "name": "Ashford",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5035,
@@ -6564,7 +6178,6 @@ export default [
  {
    "id": 387,
    "name": "Ashgrove",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4060,
@@ -6581,7 +6194,6 @@ export default [
  {
    "id": 388,
    "name": "Ashley",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2400,
@@ -6598,7 +6210,6 @@ export default [
  {
    "id": 389,
    "name": "Ashmont",
-   "urban_area": "Wagga Wagga",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2650,
@@ -6615,7 +6226,6 @@ export default [
  {
    "id": 390,
    "name": "Ashmore",
-   "urban_area": "Gold Coast",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4214,
@@ -6632,7 +6242,6 @@ export default [
  {
    "id": 391,
    "name": "Ashton",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5137,
@@ -6649,7 +6258,6 @@ export default [
  {
    "id": 392,
    "name": "Ashtonfield",
-   "urban_area": "Maitland",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2323,
@@ -6666,7 +6274,6 @@ export default [
  {
    "id": 393,
    "name": "Ashville",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5259,
@@ -6683,7 +6290,6 @@ export default [
  {
    "id": 394,
    "name": "Ashwell",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4340,
@@ -6700,7 +6306,6 @@ export default [
  {
    "id": 395,
    "name": "Ashwood",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3147,
@@ -6717,7 +6322,6 @@ export default [
  {
    "id": 396,
    "name": "Aspendale",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3195,
@@ -6734,7 +6338,6 @@ export default [
  {
    "id": 397,
    "name": "Aspendale Gardens",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3195,
@@ -6751,7 +6354,6 @@ export default [
  {
    "id": 398,
    "name": "Aspley",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4034,
@@ -6768,7 +6370,6 @@ export default [
  {
    "id": 399,
    "name": "Asquith",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2077,
@@ -6785,7 +6386,6 @@ export default [
  {
    "id": 400,
    "name": "Athelstone",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5076,
@@ -6802,7 +6402,6 @@ export default [
  {
    "id": 401,
    "name": "Atherton",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4883,
@@ -6819,7 +6418,6 @@ export default [
  {
    "id": 402,
    "name": "Athlone",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3818,
@@ -6836,7 +6434,6 @@ export default [
  {
    "id": 403,
    "name": "Athol",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4350,
@@ -6853,7 +6450,6 @@ export default [
  {
    "id": 404,
    "name": "Athol Park",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5012,
@@ -6870,7 +6466,6 @@ export default [
  {
    "id": 405,
    "name": "Atholwood",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2361,
@@ -6887,7 +6482,6 @@ export default [
  {
    "id": 406,
    "name": "Atitjere",
-   "urban_area": "",
    "state_code": "NT",
    "state": "Northern Territory",
    "postcode": 872,
@@ -6904,7 +6498,6 @@ export default [
  {
    "id": 407,
    "name": "Atkinsons Dam",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4311,
@@ -6921,7 +6514,6 @@ export default [
  {
    "id": 408,
    "name": "Attadale",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6156,
@@ -6938,7 +6530,6 @@ export default [
  {
    "id": 409,
    "name": "Attunga",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2345,
@@ -6955,7 +6546,6 @@ export default [
  {
    "id": 410,
    "name": "Attwood",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3049,
@@ -6972,7 +6562,6 @@ export default [
  {
    "id": 411,
    "name": "Atwell",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6164,
@@ -6989,7 +6578,6 @@ export default [
  {
    "id": 412,
    "name": "Aubigny",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4401,
@@ -7006,7 +6594,6 @@ export default [
  {
    "id": 413,
    "name": "Aubin Grove",
-   "urban_area": "Perth",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6164,
@@ -7023,7 +6610,6 @@ export default [
  {
    "id": 414,
    "name": "Aubrey",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3393,
@@ -7040,7 +6626,6 @@ export default [
  {
    "id": 415,
    "name": "Auburn",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2144,
@@ -7057,7 +6642,6 @@ export default [
  {
    "id": 416,
    "name": "Auburn",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4413,
@@ -7074,7 +6658,6 @@ export default [
  {
    "id": 417,
    "name": "Auburn",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5451,
@@ -7091,7 +6674,6 @@ export default [
  {
    "id": 418,
    "name": "Auburn Vale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2360,
@@ -7108,7 +6690,6 @@ export default [
  {
    "id": 419,
    "name": "Auchenflower",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4066,
@@ -7125,7 +6706,6 @@ export default [
  {
    "id": 420,
    "name": "Auchmore",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3570,
@@ -7142,7 +6722,6 @@ export default [
  {
    "id": 421,
    "name": "Augathella",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4477,
@@ -7159,7 +6738,6 @@ export default [
  {
    "id": 422,
    "name": "Augusta",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6290,
@@ -7176,7 +6754,6 @@ export default [
  {
    "id": 423,
    "name": "Augustine Heights",
-   "urban_area": "Brisbane",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4300,
@@ -7193,7 +6770,6 @@ export default [
  {
    "id": 424,
    "name": "Auldana",
-   "urban_area": "Adelaide",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5072,
@@ -7210,7 +6786,6 @@ export default [
  {
    "id": 425,
    "name": "Aurukun",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4892,
@@ -7227,7 +6802,6 @@ export default [
  {
    "id": 426,
    "name": "Austinmer",
-   "urban_area": "Wollongong",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2515,
@@ -7244,7 +6818,6 @@ export default [
  {
    "id": 427,
    "name": "Austins Ferry",
-   "urban_area": "Hobart",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7011,
@@ -7261,7 +6834,6 @@ export default [
  {
    "id": 428,
    "name": "Austinville",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4213,
@@ -7278,7 +6850,6 @@ export default [
  {
    "id": 429,
    "name": "Austral",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2179,
@@ -7295,7 +6866,6 @@ export default [
  {
    "id": 430,
    "name": "Austral Eden",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2440,
@@ -7312,7 +6882,6 @@ export default [
  {
    "id": 431,
    "name": "Australia Plains",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5374,
@@ -7329,7 +6898,6 @@ export default [
  {
    "id": 432,
    "name": "Australind",
-   "urban_area": "Bunbury",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6233,
@@ -7346,7 +6914,6 @@ export default [
  {
    "id": 433,
    "name": "Avalon",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3212,
@@ -7363,7 +6930,6 @@ export default [
  {
    "id": 434,
    "name": "Avalon Beach",
-   "urban_area": "Sydney",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2107,
@@ -7380,7 +6946,6 @@ export default [
  {
    "id": 435,
    "name": "Aveley",
-   "urban_area": "Ellenbrook",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6069,
@@ -7397,7 +6962,6 @@ export default [
  {
    "id": 436,
    "name": "Avenel",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3664,
@@ -7414,7 +6978,6 @@ export default [
  {
    "id": 437,
    "name": "Avenell Heights",
-   "urban_area": "Bundaberg",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -7431,7 +6994,6 @@ export default [
  {
    "id": 438,
    "name": "Avenue Range",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5273,
@@ -7448,7 +7010,6 @@ export default [
  {
    "id": 439,
    "name": "Avisford",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2850,
@@ -7465,7 +7026,6 @@ export default [
  {
    "id": 440,
    "name": "Avoca",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2577,
@@ -7482,7 +7042,6 @@ export default [
  {
    "id": 441,
    "name": "Avoca",
-   "urban_area": "Bundaberg",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -7499,7 +7058,6 @@ export default [
  {
    "id": 442,
    "name": "Avoca",
-   "urban_area": "",
    "state_code": "TAS",
    "state": "Tasmania",
    "postcode": 7213,
@@ -7516,7 +7074,6 @@ export default [
  {
    "id": 443,
    "name": "Avoca",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3467,
@@ -7533,7 +7090,6 @@ export default [
  {
    "id": 444,
    "name": "Avoca Beach",
-   "urban_area": "Central Coast",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2251,
@@ -7550,7 +7106,6 @@ export default [
  {
    "id": 445,
    "name": "Avoca Dell",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5253,
@@ -7567,7 +7122,6 @@ export default [
  {
    "id": 446,
    "name": "Avoca Vale",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4306,
@@ -7584,7 +7138,6 @@ export default [
  {
    "id": 447,
    "name": "Avon",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2574,
@@ -7601,7 +7154,6 @@ export default [
  {
    "id": 448,
    "name": "Avon",
-   "urban_area": "",
    "state_code": "SA",
    "state": "South Australia",
    "postcode": 5501,
@@ -7618,7 +7170,6 @@ export default [
  {
    "id": 449,
    "name": "Avondale",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2530,
@@ -7635,7 +7186,6 @@ export default [
  {
    "id": 450,
    "name": "Avondale",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4670,
@@ -7652,7 +7202,6 @@ export default [
  {
    "id": 451,
    "name": "Avondale Heights",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3034,
@@ -7669,7 +7218,6 @@ export default [
  {
    "id": 452,
    "name": "Avonmore",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3559,
@@ -7686,7 +7234,6 @@ export default [
  {
    "id": 453,
    "name": "Avon Plains",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3477,
@@ -7703,7 +7250,6 @@ export default [
  {
    "id": 454,
    "name": "Avonside",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2628,
@@ -7720,7 +7266,6 @@ export default [
  {
    "id": 455,
    "name": "Avonsleigh",
-   "urban_area": "Melbourne",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3782,
@@ -7737,7 +7282,6 @@ export default [
  {
    "id": 456,
    "name": "Avon Valley National Park",
-   "urban_area": "",
    "state_code": "WA",
    "state": "Western Australia",
    "postcode": 6084,
@@ -7754,7 +7298,6 @@ export default [
  {
    "id": 457,
    "name": "Awaba",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2283,
@@ -7771,7 +7314,6 @@ export default [
  {
    "id": 458,
    "name": "Axe Creek",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3551,
@@ -7788,7 +7330,6 @@ export default [
  {
    "id": 459,
    "name": "Axedale",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3551,
@@ -7805,7 +7346,6 @@ export default [
  {
    "id": 460,
    "name": "Aylmerton",
-   "urban_area": "",
    "state_code": "NSW",
    "state": "New South Wales",
    "postcode": 2575,
@@ -7822,7 +7362,6 @@ export default [
  {
    "id": 461,
    "name": "Ayr",
-   "urban_area": "",
    "state_code": "QLD",
    "state": "Queensland",
    "postcode": 4807,
@@ -7839,7 +7378,6 @@ export default [
  {
    "id": 462,
    "name": "Ayrford",
-   "urban_area": "",
    "state_code": "VIC",
    "state": "Victoria",
    "postcode": 3268,
