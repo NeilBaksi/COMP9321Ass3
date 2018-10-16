@@ -38,8 +38,8 @@ def caching_crimes():
     #get sum of number of offences of each category in each lga
     df = df.groupby(['LGA','Offence_category']).sum().reset_index()
     df.index+=1
-    with pd.option_context('display.max_rows', 20, 'display.max_columns', 6):
-        print(df)
+    # with pd.option_context('display.max_rows', 20, 'display.max_columns', 6):
+    #     print(df)
 
 
 def caching_places():
@@ -50,7 +50,7 @@ def caching_places():
     df.index+=1
     df = df.drop('Subcategory', axis=1)
     df.rename(columns={'Offence category': 'Offence_category'}, inplace=True)
-    df.rename(columns={'Statistical Division or Subdivision': 'Area'}, inplace=True)
+    df.rename(columns={'Dec 2012': 'lastCol'}, inplace=True)
     #drop last 4 useless rows
     df = df[:-4]
     #list of unique LGAs

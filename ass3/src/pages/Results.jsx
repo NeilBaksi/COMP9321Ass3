@@ -2,133 +2,162 @@ import React, { Component } from 'react';
 import Footer from '../components/Footer.jsx';
 import Navbar from '../components/Navbar.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
-import places from '../components/places.jsx';
 import './table.css';
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
+import singleResult from '../components/singleResult.jsx';
 
 var options = {
+  chart: {
+    type: 'column'
+  },
   title: {
-    text: 'Example chart'
+    text: 'Example Graph'
+  },
+  subtitle: {
+    text: 'Something '
+  },
+  xAxis: {
+    categories: [
+      'Current Crime Count',
+      'Expected Crime Count'
+    ],
+    crosshair: true
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: 'Count'
+    }
+  },
+  tooltip: {
+    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+      '<td style="padding:0"><b>{point.y:.1f} mm</b></td></tr>',
+    footerFormat: '</table>',
+    shared: true,
+    useHTML: true
+  },
+  plotOptions: {
+    column: {
+      pointPadding: 0.2,
+      borderWidth: 0
+    }
   },
   series: [{
-    name: 'Crimes',
-        colorByPoint: true,
-        data: [{
-            name: 'Homicide',
-            y: 21,
-            sliced: true,
-            selected: true
-        }, {
-            name: 'Assault',
-            y: 11
-        }, {
-            name: 'Robbery',
-            y: 10
-        }, {
-            name: 'Theft',
-            y: 4
-        }, {
-            name: 'Homicide',
-            y: 4
-        }, {
-            name: 'Sexual Offence',
-            y: 16
-        }, {
-            name: 'Abduction and kidnapping',
-            y: 16
-        }, {
-            name: 'Robbery',
-            y: 12
-        }, {
-            name: 'Blackmail and extortion',
-            y: 12
-        }, {
-            name: 'Harassment, threatening behaviour and private nuisance',
-            y: 6
-        }, {
-            name: 'Other offences against the person',
-            y: 12
-        }, {
-            name: 'Arson',
-            y: 22
-        }, {
-            name: 'Robbery',
-            y: 21
-        },{
-            name: 'Malicious damage to property',
-            y: 30
-        },{
-            name: 'Drug offences',
-            y: 25
-        },{
-            name: 'Prohibited and regulated weapons offences',
-            y: 9
-        },{
-            name: 'Disorderly conduct',
-            y: 1
-        },{
-            name: 'Betting and gaming offences',
-            y: 5
-        },{
-            name: 'Liquor offences',
-            y: 7
-        },{
-            name: 'Pornography offences',
-            y: 11
-        },{
-            name: 'Prostitution offences',
-            y: 20
-        },{
-            name: 'Against justice procedures',
-            y: 14
-        },{
-            name: 'Transport regulatory offences',
-            y: 18
-        },{
-            name: 'Other offences',
-            y: 10
-        }]
+    name: 'Homicide',
+    data: [49.9, 69]
+
+  }, {
+    name: 'Assault',
+    data: [83.6, 69]
+
+  }, {
+    name: 'Robbery',
+    data: [48.9, 69]
+
+  }, {
+    name: 'Theft',
+    data: [42.4, 69]
+
+  },{
+    name: 'Sexual Offence',
+    data: [49.9, 69]
+
+  }, {
+    name: 'Abduction and kidnapping',
+    data: [83.6, 69]
+
+  }, {
+    name: 'Blackmail and extortion',
+    data: [48.9, 69]
+
+  }, {
+    name: 'Harassment, threatening behaviour and private nuisance',
+    data: [42.4, 69]
+
+  },{
+    name: 'Other offences against the person',
+    data: [49.9, 69]
+
+  }, {
+    name: 'Arson',
+    data: [83.6, 69]
+
+  }, {
+    name: 'Malicious damage to property',
+    data: [48.9, 69]
+
+  }, {
+    name: 'Drug offences',
+    data: [42.4, 69]
+
+  },{
+    name: 'Prohibited and regulated weapons offences',
+    data: [49.9, 69]
+
+  }, {
+    name: 'Disorderly conduct',
+    data: [83.6, 69]
+
+  }, {
+    name: 'Betting and gaming offences',
+    data: [48.9, 69]
+
+  }, {
+    name: 'Liquor offences',
+    data: [42.4, 69]
+
+  },{
+    name: 'Pornography offences',
+    data: [42.4, 69]
+
+  },{
+    name: 'Prostitution offences',
+    data: [42.4, 69]
+
+  },{
+    name: 'Against justice procedures',
+    data: [42.4, 69]
+
+  },{
+    name: 'Transport regulatory offences',
+    data: [42.4, 69]
+
+  },{
+    name: 'Other offences',
+    data: [42.4, 69]
+
   }]
 }
 
 
 
 class Results extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
       columnData: [
-        {col : 'Title'},
-        {col : 'Homicide'},
-        {col : 'Assault'},
-        {col : 'Robbery'},
-        {col : 'Theft'},
-        {col : 'Sexual offences'},
-        {col : 'Abduction and kidnapping'},
-        {col : 'Robbery'},
-        {col : 'Blackmail and extortion'},
-        {col : 'Harassment, threatening behaviour and private nuisance'},
-        {col : 'Other offences against the person'},
-        {col : 'Arson'},
-        {col : 'Malicious damage to property'},
-        {col : 'Drug offences'},
-        {col : 'Prohibited and regulated weapons offences'},
-        {col : 'Disorderly conduct'},
-        {col : 'Betting and gaming offences'},
-        {col : 'Liquor offences'},
-        {col : 'Pornography offences'},
-        {col : 'Prostitution offences'},
-        {col : 'Against justice procedures'},
-        {col : 'Transport regulatory offences'},
-        {col : 'Other offences'},
+        {col : 'Crime'},
+        {col : 'Jan 2012'},
+        {col : 'Feb 2012'},
+        {col : 'Mar 2012'},
+        {col : 'Apr 2012'},
+        {col : 'May 2012'},
+        {col : 'Jun 2012'},
+        {col : 'Jul 2012'},
+        {col : 'Aug 2012'},
+        {col : 'Sep 2012'},
+        {col : 'Oct 2012'},
+        {col : 'Nov 2012'},
+        {col : 'Dec 2012'},
       ],
     }
   }
 
-
-  render() {
+  render() {   
 
     const tableHeaderColumns = this.state.columnData.map((column) => (
       <TableHeaderColumn 
@@ -147,7 +176,7 @@ class Results extends Component {
         <Jumbotron title="Results" subtitle="Your results"/>
         <div className="container">
           <h2>Results</h2>
-          <BootstrapTable data={places} striped={true} hover={true} pagination>
+          <BootstrapTable data={singleResult} striped={true} hover={true} pagination>
             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>ID</TableHeaderColumn>
             {tableHeaderColumns}
           </BootstrapTable>

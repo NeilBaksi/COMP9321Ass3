@@ -9,7 +9,6 @@ import crimes from '../components/crimes.jsx';
 import MonthPickerInput from 'react-month-picker-input';
 import {Grid, Row, Col } from 'react-bootstrap';
 
-
 require('react-month-picker-input/dist/react-month-picker-input.css');
 
 class Search extends Component {
