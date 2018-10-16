@@ -24,6 +24,7 @@ class Search extends Component {
       currentCrime: ' ',
       location: places,
       crime: crimes,
+      data: []
     }
   }
 
@@ -31,9 +32,23 @@ class Search extends Component {
     this.setState({currentLocation:{Title: e.target.value}});
   };
 
-   getData = () => {
-
-   };
+  getData() {
+    var self = this;
+    return Promise.all([
+      fetch('/data/location?suburb=' + this.state.currentLocation),
+      fetch('/data/crime?crime=' + this.state.currentCrime)
+    ]).then(responses =>
+      Promise.all(responses.map(res => res.json())))
+    .then(function(response) {
+      self.setState({
+        data: response,
+      })
+      console.log(response);
+    }).catch(function(err) {
+      console.log(err);
+      throw new Error('Couldn\'t get data rip');
+    })
+  }
 
   resetThenSet = (id, stateKey) => {
     let locations = [...this.state.location]
