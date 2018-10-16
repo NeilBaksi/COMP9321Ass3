@@ -8,9 +8,9 @@ import places from '../components/places.jsx';
 import crimes from '../components/crimes.jsx';
 import MonthPickerInput from 'react-month-picker-input';
 import {Grid, Row, Col } from 'react-bootstrap';
+
+
 require('react-month-picker-input/dist/react-month-picker-input.css');
-
-
 
 class Search extends Component {
 
@@ -54,15 +54,19 @@ class Search extends Component {
 
 
   render() {
-    let currLoc = this.state.currentLocation.Title
-    let currCrim = this.state.currentCrime.Title
+    let currLoc = this.state.currentLocation
+    let currCrim = this.state.currentCrime.title
     
-    let map = "https://www.google.com/maps/embed/v1/place?q="+currLoc+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+    let map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
         
     let stat;
-    if (currLoc && currCrim) {
-      stat = <h1>{currCrim} in {currLoc} : {currLoc[currCrim]}</h1>
+    if (currLoc.Title && currCrim) {
+      stat = <h1>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h1>
     }
+
+
+
+
 
     return (
       <div>
@@ -136,3 +140,5 @@ class Search extends Component {
 }
 
 export default Search
+
+
