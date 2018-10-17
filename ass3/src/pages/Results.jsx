@@ -174,7 +174,7 @@ class Results extends Component {
       <div>
         <Navbar />
         <Jumbotron title="Results" subtitle="Your results"/>
-        <div className="container">
+        <div className="table-container">
           <h2>Results</h2>
           <BootstrapTable data={singleResult} striped={true} hover={true} pagination>
             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>ID</TableHeaderColumn>

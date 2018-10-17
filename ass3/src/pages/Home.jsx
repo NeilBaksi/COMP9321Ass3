@@ -6,6 +6,7 @@ import ReactSignupLoginComponent from 'react-signup-login-component';
 import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import places from '../components/places.jsx';
 import './table.css';
+import './Home.css';
 
 const signupWasClickedCallback = (data) => {
   console.log(data);
@@ -70,8 +71,8 @@ class Home extends Component {
       <div>
         <Navbar />
         <Jumbotron title="Welcome" subtitle="Basic Welcome page with Bootstrap4!" />
-        <div className="container">
-          <h2>Welcome</h2>
+        <div className="table-container">
+          <h2>Crime Statistics for Sydney suburbs</h2>
           <BootstrapTable data={places} striped={true} hover={true} pagination>
             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>ID</TableHeaderColumn>
             {tableHeaderColumns}

@@ -70,16 +70,17 @@ class Search extends Component {
   render() {
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
-    
-    let map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+    let map;
+    if(currLoc){
+      map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+    } else {
+      map = "https://www.google.com/maps/embed/v1/place?q=Sydney&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+    }
         
     let stat;
-    if (currLoc.Title && currCrim) {
-      stat = <h1>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h1>
+    if (currLoc && currCrim) {
+      stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
     }
-
-
-
 
 
     return (
@@ -102,9 +103,8 @@ class Search extends Component {
               <br />
             </Col>
           </Row>
-
           <Row>
-            <Col md={12}>
+            <Col md={8}>
               <Dropdown
                 titleHelper="Crime"
                 title="Select crime"
@@ -113,10 +113,14 @@ class Search extends Component {
               />
               <br />
             </Col>
+            <Col md={4}>
+              {stat}
+              <br />
+            </Col>
           </Row>
 
           <Row>
-            <Col md={12}>
+            <Col md={4}>
               <div>
                 <MonthPickerInput
                   onChange={function(maskedValue, selectedYear, selectedMonth) {
@@ -124,6 +128,10 @@ class Search extends Component {
                   }}
                 />
                 <br />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
                 <MonthPickerInput
                   onChange={function(maskedValue, selectedYear, selectedMonth) {
                     console.log(maskedValue, selectedYear, selectedMonth);
@@ -132,21 +140,12 @@ class Search extends Component {
               </div>
               <br />
             </Col>
-          </Row>
-
-          <Row>
-            <Col md={12} mdPush={3}>
-              {stat}
-              <br />
-            </Col>
-          </Row>
-          <Row>
-            <Col md={12} mdPush={3}>
+            <Col md={4}>
               <iframe width="600" height="450" frameBorder="0" src={map} allowFullScreen></iframe>
             </Col>
           </Row>
-
         </Grid>
+        <br />
         <Footer />
       </div>
     );

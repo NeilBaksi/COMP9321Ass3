@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
 import onClickOutside from "react-onclickoutside";
+import {Glyphicon} from 'react-bootstrap';
 import './Dropdown.css';
 
 class Dropdown extends Component{
@@ -39,13 +39,13 @@ class Dropdown extends Component{
         <div className="dd-header" onClick={this.toggleList}>
           <div className="dd-header-title">{headerTitle}</div>
           {listOpen
-            ? <FontAwesome name="angle-up" size="2x"/>
-            : <FontAwesome name="angle-down" size="2x"/>
+            ? <Glyphicon glyph="glyphicon glyphicon-menu-up" />
+            : <Glyphicon glyph="glyphicon glyphicon-menu-down" />
           }
         </div>
         {listOpen && <ul className="dd-list">
           {list.map((item)=> (
-            <li className="dd-list-item" key={item.id} onClick={() => this.selectItem(item.title, item.id, item.key)}>{item.title} {item.selected && <FontAwesome name="check"/>}</li>
+            <li className="dd-list-item" key={item.id} onClick={() => this.selectItem(item.title, item.id, item.key)}>{item.title} {item.selected && <Glyphicon glyph="glyphicon glyphicon-ok" />}</li>
           ))}
         </ul>}
       </div>

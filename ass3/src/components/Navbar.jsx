@@ -9,7 +9,7 @@ class Navbar extends Component {
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="container">
+        <div className="table-container">
           <div className="collapse navbar-collapse" id="navbarCollapse">
           <Link className="navbar-brand" to="/">Moose Website</Link>
             <ul className="navbar-nav ml-auto">
