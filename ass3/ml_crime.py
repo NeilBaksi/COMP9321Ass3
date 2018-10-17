@@ -95,6 +95,6 @@ df1.head(200)
 
 # The default
 ml(df1, 'Jan 2012', 'Assault')
-ml(df1, 'Feb 2013', get_all_crime_types()[3])
+#ml(df1, 'Feb 2013', get_all_crime_types()[3])
 
 
