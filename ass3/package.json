@@ -7,6 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
     "@fortawesome/react-fontawesome": "^0.1.3",
+    "auth0-js": "^9.8.0",
     "bootstrap-4-react": "0.0.56",
     "canvasjs": "^1.8.1",
     "highcharts": "^6.1.4",

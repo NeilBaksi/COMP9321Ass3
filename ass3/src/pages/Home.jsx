@@ -7,6 +7,7 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import places from '../components/places.jsx';
 import './table.css';
 import './Home.css';
+import Auth from '../components/Auth.js';
 
 const signupWasClickedCallback = (data) => {
   console.log(data);
@@ -20,6 +21,7 @@ const recoverPasswordWasClickedCallback = (data) => {
   console.log(data);
   alert('Recover password callback, see log on the console to see the data.');
 };
+
 
 class Home extends Component {
 
@@ -54,6 +56,15 @@ class Home extends Component {
   }
 
   render() {
+    const auth = new Auth();
+    auth.login();
+
+    const handleAuthentication = (nextState, replace) => {
+      if (/access_token|id_token|error/.test(nextState.location.hash)) {
+        auth.handleAuthentication();
+      }
+    }
+    // console.log(handleAuthentication);
 
     const tableHeaderColumns = this.state.columnData.map((column) => (
       <TableHeaderColumn 
