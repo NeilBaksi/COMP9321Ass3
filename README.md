@@ -1,8 +1,8 @@
 # COMP9321Ass3
 Design and Development of a Data Analytics Service
 
-To Run:
+To Run Webapp:
 
-    cd ass3
+    cd client
     npm install
     npm start 
