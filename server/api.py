@@ -24,7 +24,7 @@ class PredictCrime(Resource):
     def get(self, location, crime_type):
         crime_rate = get_crime_prediction(location,crime_type)
         print(f'crime rate is {crime_rate}')
-        return {'crimetype': crime_type, 'location':location, 'crime_rate':crime_rate}
+        return {'crimetype': crime_type, 'location':location, 'crime_rate':crime_rate}, 200
 
 if __name__ == '__main__':
 	# run the application

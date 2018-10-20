@@ -15,38 +15,37 @@ class Search extends Component {
 
   constructor(props) {
     super(props);
-    this.handleChange = this.handleChange.bind(this);
     this.state = {
-      currentLocation: {
-          Title: 'Sydney',
-        },
-      currentCrime: ' ',
+      // currentLocation: {
+      //     Title: 'Sydney',
+      //   },
+      currentLocation: 'Sydney',
+      currentCrime: 'Theft',
       location: places,
       crime: crimes,
       data: []
     }
+    this.handleChange = this.handleChange.bind(this);
+    this.getData = this.getData.bind(this);
   }
+
+  // componentWillMount() {
+  //   this.getData()
+  // }
 
   handleChange(e) {
     this.setState({currentLocation:{Title: e.target.value}});
   };
 
-  getData() {
-    var self = this;
-    return Promise.all([
-      fetch('/data/location?suburb=' + this.state.currentLocation),
-      fetch('/data/crime?crime=' + this.state.currentCrime)
-    ]).then(responses =>
-      Promise.all(responses.map(res => res.json())))
-    .then(function(response) {
-      self.setState({
-        data: response,
-      })
-      console.log(response);
-    }).catch(function(err) {
-      console.log(err);
-      throw new Error('Couldn\'t get data rip');
-    })
+  getData(currLoc, currCrim) {
+    // let currLoc = this.state.currentLocation
+    // let currCrim = this.state.currentCrime.title
+    console.log(currCrim)
+    // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
+    fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
+      .then(response => response.json())
+      .then(data => this.setState({data}))
+      .catch(err => console.log)
   }
 
   resetThenSet = (id, stateKey) => {
@@ -71,6 +70,8 @@ class Search extends Component {
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
     let map;
+    this.getData(currLoc, currCrim)
+    console.log(this.state.data)
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
     } else {
@@ -91,6 +92,8 @@ class Search extends Component {
           <Row className="show-grid">
             <Col md={12}>
               <h2>Search</h2>
+              <p>Current {this.state.data}</p>
+              {/* <p>{this.getData}</p> */}
               <form>
                 <Typeahead
                   type="text"
