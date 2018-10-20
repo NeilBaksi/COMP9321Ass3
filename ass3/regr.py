@@ -99,5 +99,5 @@ def get_crime_prediction(lga, crime_type):
 	return prediction
 	
 
-prediction = get_crime_prediction("Woollahra", "Theft")
-print(prediction)
+#prediction = get_crime_prediction("Woollahra", "Theft")
+#print(prediction)

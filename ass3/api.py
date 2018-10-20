@@ -4,6 +4,9 @@ from flask_restplus import Resource, Api
 from flask_restplus import fields
 from flask_restplus import inputs
 from flask_restplus import reqparse
+from regr import get_crime_prediction
+#get_crime_prediction(lga, crime_type):
+
 
 app = Flask(__name__)
 api = Api(app,
@@ -19,7 +22,9 @@ class PredictCrime(Resource):
     @api.response(200, 'Successful')
     @api.doc(description="Get a prediction of the crime in a particular location")
     def get(self, location, crime_type):
-        return {'crimetype': crime_type, 'location':location}
+        crime_rate = get_crime_prediction(location,crime_type)
+        print(f'crime rate is {crime_rate}')
+        return {'crimetype': crime_type, 'location':location, 'crime_rate':crime_rate}
 
 if __name__ == '__main__':
 	# run the application
