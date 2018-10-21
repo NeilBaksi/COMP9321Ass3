@@ -137,10 +137,11 @@ class Search extends Component {
                 list={this.state.crime}
                 resetThenSet={this.resetThenSet}
               />
+              <br />
             </Col>
           </Row>
           <Row>
-            <Col md={3}>
+            <Col md={4}>
               <div>
                 <MonthPickerInput
                   onChange={function(maskedValue, selectedYear, selectedMonth) {
@@ -160,15 +161,15 @@ class Search extends Component {
               </div>
               <br />
             </Col>
-            <Row>
-            <Col md={3}>
+            <Col md={4}>
               <div>
                 <Button href='/results' bsStyle="primary">Submit</Button>
               </div>
               <br />
             </Col>
           </Row>
-          <Col md={6}>
+          <Row>
+            <Col md={6}>
               {stat}
               <br />
             </Col>

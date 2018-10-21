@@ -7,6 +7,7 @@ import numpy as np
 from random import randint
 import json
 from regr import get_crime_prediction
+from regr import last_month_history
 
 
 
@@ -63,8 +64,9 @@ def caching_places():
         file.write('    Title: \''+lga+'\',\n')
         file.write('    state_code: \'NSW\',\n')
         for i in df.Offence_category.unique():
-            file.write('    \''+i+'\': \''+str(get_crime_prediction(lga, i))+'\',\n')
-            print (i+"---value")
+            file.write('    \''+i+'_predicted\': \''+str(get_crime_prediction(lga, i))+'\',\n')
+            file.write('    \''+i+'_historical\': \''+str(last_month_history(lga, i))+'\',\n')
+            print (i+"---"+str(get_crime_prediction(lga, i)))
         file.write('    selected: false,\n')
         file.write('    key: \'location\'\n')
         file.write('  },\n')
