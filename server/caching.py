@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from random import randint
 import json
+from regr import get_crime_prediction
 
 
 
@@ -62,7 +63,8 @@ def caching_places():
         file.write('    Title: \''+lga+'\',\n')
         file.write('    state_code: \'NSW\',\n')
         for i in df.Offence_category.unique():
-            file.write('    \''+i+'\': \''+str(randint(0, 20))+'\',\n')
+            file.write('    \''+i+'\': \''+str(get_crime_prediction(lga, i))+'\',\n')
+            print (i+"---value")
         file.write('    selected: false,\n')
         file.write('    key: \'location\'\n')
         file.write('  },\n')
@@ -74,13 +76,13 @@ def caching_places():
 
 if __name__ == "__main__":
 
-    file = open('./src/components/places.jsx','w') 
+    file = open('../client/src/components/places.jsx','w') 
     #pre process data
     caching_places()
     file.write(']\n')
     file.close() 
 
-    file = open('./src/components/crimes.jsx','w')
+    file = open('../client/src/components/crimes.jsx','w')
     #pre process data
     caching_crimes()
     file.write(']\n')
