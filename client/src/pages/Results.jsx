@@ -16,9 +16,9 @@ class Results extends Component {
 
   constructor(props) {
     super(props);
-    console.log(temp)
     this.state = {
       id: 4,
+      currentLocation: places[temp].Title,
       columnData: [
         {col : 'Crime'},
         {col : 'Jan 2012'},
@@ -35,7 +35,6 @@ class Results extends Component {
         {col : 'Dec 2012'},
       ],
       auth: this.props.auth,
-      currentLocation: 'Randwick',
       options : {
 
       },
@@ -51,7 +50,7 @@ class Results extends Component {
   setfromcache(){
     let bs = localStorage.getItem('myData');
     temp = bs;
-    this.setState({id: temp, options: {
+    this.setState({currentLocation: places[temp].Title, id: temp, options: {
       chart: {
           type: 'column'
         },
@@ -196,9 +195,9 @@ class Results extends Component {
     return (
       <div>
         <Navbar />
-        <Jumbotron title="Results" subtitle="Your results"/>
+        <Jumbotron title="Results" />
         <div className="table-container">
-          <h2>Results</h2>
+          <h2>Results for {this.state.currentLocation}</h2>
           <HighchartsReact
             highcharts={Highcharts}
             options={this.state.options}
