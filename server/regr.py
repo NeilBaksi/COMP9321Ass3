@@ -7,7 +7,7 @@ import numpy as np
 from math import *
 
 #read file (df is global)
-df = pd.read_csv('crimes.csv')
+
 
 #to select required columns (years: Jan 2007 - Dec 2012)
 def select_cols_for_ml():
@@ -29,7 +29,8 @@ def select_cols_for_training():
 
 def get_data():
 	
-	global df
+	
+	df = pd.read_csv('crimes.csv')
 	#index starts from 1
 	df.index+=1
 	df = df.drop('Subcategory', axis=1)
@@ -51,32 +52,32 @@ def get_data():
 	
 	#select rqd cols: index, area, offence and years: Jan 2007 - Dec 2012
 	df = df.iloc[:, select_cols_for_ml()]
+	return df
+
+
+def prepare_model(df1):
+
 	
 
-
-def prepare_model():
-
-	global df
-
-	df = shuffle(df)
-	df = df.reset_index()
-	df = df.drop('index', axis=1)
+	df2 = shuffle(df1)
+	df2 = df2.reset_index()
+	df2 = df2.drop('index', axis=1)
 	#all values from 2007 - 2011 for training
-	crime_x = df.iloc[:, select_cols_for_training()].values
+	crime_x = df2.iloc[:, select_cols_for_training()].values
 	#values from jan 2012 as target to be predicted
-	crime_y = df[['Jan 2012']].values
+	crime_y = df2[['Jan 2012']].values
 
 	
-	return crime_x, crime_y
+	return crime_x, crime_y, df2
 
 	
 def get_crime_prediction(lga, crime_type):
 
-	global df
-	get_data()
+	
+	df = get_data()
 
-	df = df.loc[df['Offence_category'] == crime_type]
-	crime_x, crime_y = prepare_model()
+	df1 = df.loc[df['Offence_category'] == crime_type]
+	crime_x, crime_y, df2 = prepare_model(df1)
 
 	model = linear_model.LinearRegression()
 	model.fit(crime_x, crime_y)
@@ -85,7 +86,7 @@ def get_crime_prediction(lga, crime_type):
 	mylist = {}
 	j = 0
 	for i in range(len(crime_x)):
-	        area = df.iloc[j,0]	        
+	        area = df2.iloc[j,0]	        
 	        predicted_crime_rate = float("{0:.2f}".format(fabs(y_pred[i])))
 	        #print(j, " ", area," ", "Expected:",crime_y[i], "Predicted: %.2f"% fabs(y_pred[i]))	        
 	        mylist[area] = predicted_crime_rate
@@ -99,5 +100,5 @@ def get_crime_prediction(lga, crime_type):
 	return prediction
 	
 
-#prediction = get_crime_prediction("Woollahra", "Theft")
-#print(prediction)
+prediction = get_crime_prediction("Woollahra", "Theft")
+print(prediction)
