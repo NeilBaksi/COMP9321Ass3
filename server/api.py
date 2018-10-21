@@ -6,6 +6,7 @@ from flask_restplus import fields
 from flask_restplus import inputs
 from flask_restplus import reqparse
 from regr import get_crime_prediction
+from regr import last_month_history
 #get_crime_prediction(lga, crime_type):
 
 from flask_cors import cross_origin
@@ -114,9 +115,38 @@ class PredictCrime(Resource):
     @api.response(200, 'Successful')
     @api.doc(description="Get a prediction of the crime in a particular location")
     def get(self, location, crime_type):
-        crime_rate = get_crime_prediction(location,crime_type)
+        try:
+            crime_rate = int(get_crime_prediction(location,crime_type))
+        except KeyError as e:
+            print("Suburb name entered incorrectly")
+            return "Suburb name entered incorrectly",404
+        except ValueError as e:
+            print("crimetype entered incorrectly")
+            return "crimetype entered incorrectly",404
         #print(f'crime rate is {crime_rate}')
         return {'crimetype': crime_type, 'location':location, 'crime_rate':crime_rate}, 200
+
+@api.route('/<string:location>/<string:crime_type>/<int:crime_pred>')
+class ComparePast(Resource):
+    @api.response(404, 'Did not work')
+    @api.response(200, 'Successful')
+    @api.doc(description="Get a comparison of how the suburb is likely to change")
+    def get(self, location, crime_type,crime_pred):
+        newval= int(crime_pred)
+        oldval = last_month_history(location, crime_type)
+        if int(oldval)> crime_pred:
+            status ="Dangerous"
+        else:
+            status="Safer"
+        try:
+            change_percent = "{0:.2f}".format(abs(((float(newval)-oldval)/oldval)*100))
+
+        except ZeroDivisionError as e:
+            return "previous number is 0. Cant compute percentage change" ,404
+        
+        return {"status":status, "percentage_change":change_percent }
+
+
 
 if __name__ == '__main__':
 	# run the application

@@ -9,8 +9,6 @@ import json
 from regr import get_crime_prediction
 from regr import last_month_history
 
-
-
 def caching_crimes():
 
     file.write('export default [\n')
