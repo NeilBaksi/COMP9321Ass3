@@ -144,7 +144,7 @@ class ComparePast(Resource):
         except ZeroDivisionError as e:
             return "previous number is 0. Cant compute percentage change" ,404
         
-        return {"status":status, "Percentage change":change_percent }
+        return {"status":status, "percentage_change":change_percent }
 
 
 

@@ -26,10 +26,12 @@ class Search extends Component {
       location: places,
       crime: crimes,
       data: {},
+      data2: {},
       auth: this.props.auth
     }
     this.handleChange = this.handleChange.bind(this);
     this.getData = this.getData.bind(this);
+    this.getData2 = this.getData2.bind(this);
   }
 
   // componentWillMount() {
@@ -45,7 +47,7 @@ class Search extends Component {
     const {getAccessToken} = this.props.auth;
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
-    console.log(getAccessToken())
+    // console.log(getAccessToken())
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
     let fetchReq = 'http://127.0.0.1:5000/' + currLoc.Title + '/' + currCrim 
     console.log(fetchReq)
@@ -54,12 +56,39 @@ class Search extends Component {
       dataType: "JSON",
       headers: {
         "Content-Type": "application/json",
-        'Authorization': `Bearer ${getAccessToken()}`,
+        // 'Authorization': `Bearer ${getAccessToken()}`,
       }
     })
+    // fetchReq + '/' + this.state.data.crime_rate
       .then(response => response.json())
       .then(response => this.setState({data: response}))
+      .then(fetch('http:127.0.0.1:5000/Randwick/Theft/403', {
+        method: "GET",
+        dataType: "JSON",
+        headers: {
+          "Content-Type": "application/json"
+        }
+      }))
+      .then(res => res.json())
+      .then(response => this.setState({data2: response}))
       .catch(err => console.log)
+  }
+
+  getData2() {
+    let currLoc = this.state.currentLocation
+    let currCrim = this.state.currentCrime.title
+    let fetchReq = 'http://127.0.0.1:5000/' + currLoc.Title + '/' + currCrim + '/' + this.state.data.crime_rate
+    console.log(fetchReq)
+    fetch(fetchReq, {
+      method: "GET",
+      dataType: "JSON",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+    .then(res => res.json())
+    .then(response => this.setState({data2: response}))
+    .catch(err => console.log)
   }
 
   resetThenSet = (id, stateKey) => {
@@ -82,12 +111,13 @@ class Search extends Component {
 
   render() {
     this.getData();
+    this.getData2();
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
     let map;
     
     const { isAuthenticated } = this.props.auth;
-    console.log(this.state.data.crime_rate) //@Neil you have the data here, do some fancy shit.
+    console.log(this.state.data2) //@Neil you have the data here, do some fancy shit.
 
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
@@ -96,11 +126,15 @@ class Search extends Component {
     }
         
     let stat;
+    let stat2;
     if (currLoc && currCrim) {
       //stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
       stat = <h2>Rate of {currCrim} in {currLoc.Title} : {this.state.data.crime_rate}</h2>
+      stat2 = <h2>{currLoc.Title} is a {this.state.data2.status} suburb with {this.state.data2.percentage_change}% crime probability</h2>
       this.getData()
+      this.getData2()
     }
+    
     // Check auth
     if (isAuthenticated()){
       console.log("Working")
@@ -170,6 +204,10 @@ class Search extends Component {
           </Row>
           <Col md={6}>
               {stat}
+              <br />
+            </Col>
+            <Col md={6}>
+              {stat2}
               <br />
             </Col>
             <Col md={6}>
