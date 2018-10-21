@@ -10,13 +10,15 @@ import places from '../components/places.jsx';
 import singleResult from '../components/singleResult.jsx';
 //import graphData from '../components/graphData.jsx';
 
-
+var temp = 4;
 class Results extends Component {
 
 
   constructor(props) {
     super(props);
+    console.log(temp)
     this.state = {
+      id: 4,
       columnData: [
         {col : 'Crime'},
         {col : 'Jan 2012'},
@@ -34,9 +36,23 @@ class Results extends Component {
       ],
       auth: this.props.auth,
       currentLocation: 'Randwick',
-      temp: [],
       options : {
-        chart: {
+
+      },
+    }
+
+      this.setfromcache = this.setfromcache.bind(this);
+  }
+
+  componentWillMount() {
+    this.setfromcache();
+  }
+
+  setfromcache(){
+    let bs = localStorage.getItem('myData');
+    temp = bs;
+    this.setState({id: temp, options: {
+      chart: {
           type: 'column'
         },
         title: {
@@ -72,110 +88,99 @@ class Results extends Component {
             borderWidth: 0
           }
         },
-        series: [
-          {
+      series: [
+      {
             name: 'Homicide',
-            data: [places[4]['Homicide_predicted']*1, places[4]['Homicide_historical']*1]
+            data: [places[temp]['Homicide_predicted']*1, places[temp]['Homicide_historical']*1]
 
           }, {
             name: 'Assault',
-            data: [places[4]['Assault_predicted']*1, places[4]['Assault_historical']*1]
+            data: [places[temp]['Assault_predicted']*1, places[temp]['Assault_historical']*1]
 
           }, {
             name: 'Robbery',
-            data: [places[4]['Robbery_predicted']*1, places[4]['Robbery_historical']*1]
+            data: [places[temp]['Robbery_predicted']*1, places[temp]['Robbery_historical']*1]
 
           }, {
             name: 'Theft',
-            data: [places[4]['Theft_predicted']*1, places[4]['Theft_historical']*1]
+            data: [places[temp]['Theft_predicted']*1, places[temp]['Theft_historical']*1]
 
           },{
             name: 'Sexual Offence',
-            data: [places[4]['Sexual Offence_predicted']*1, places[4]['Sexual Offence_historical']*1]
+            data: [places[temp]['Sexual Offence_predicted']*1, places[temp]['Sexual Offence_historical']*1]
 
           }, {
             name: 'Abduction and kidnapping',
-            data: [places[4]['Abduction and kidnapping_predicted']*1, places[4]['Abduction and kidnapping_historical']*1]
+            data: [places[temp]['Abduction and kidnapping_predicted']*1, places[temp]['Abduction and kidnapping_historical']*1]
 
           }, {
             name: 'Blackmail and extortion',
-            data: [places[4]['Blackmail and extortion_predicted']*1, places[4]['Blackmail and extortion_historical']*1]
+            data: [places[temp]['Blackmail and extortion_predicted']*1, places[temp]['Blackmail and extortion_historical']*1]
 
           }, {
             name: 'Harassment, threatening behaviour and private nuisance',
-            data: [places[4]['Harassment, threatening behaviour and private nuisance_predicted']*1, places[4]['Harassment, threatening behaviour and private nuisance_historical']*1]
+            data: [places[temp]['Harassment, threatening behaviour and private nuisance_predicted']*1, places[temp]['Harassment, threatening behaviour and private nuisance_historical']*1]
 
           },{
             name: 'Other offences against the person',
-            data: [places[4]['Other offences against the person_predicted']*1, places[4]['Other offences against the person_historical']*1]
+            data: [places[temp]['Other offences against the person_predicted']*1, places[temp]['Other offences against the person_historical']*1]
 
           }, {
             name: 'Arson',
-            data: [places[4]['Arson_predicted']*1, places[4]['Arson_historical']*1]
+            data: [places[temp]['Arson_predicted']*1, places[temp]['Arson_historical']*1]
 
           }, {
             name: 'Malicious damage to property',
-            data: [places[4]['Malicious damage to property_predicted']*1, places[4]['Malicious damage to property_historical']*1]
+            data: [places[temp]['Malicious damage to property_predicted']*1, places[temp]['Malicious damage to property_historical']*1]
 
           }, {
             name: 'Drug offences',
-            data: [places[4]['Drug offences_predicted']*1, places[4]['Drug offences_historical']*1]
+            data: [places[temp]['Drug offences_predicted']*1, places[temp]['Drug offences_historical']*1]
 
           },{
             name: 'Prohibited and regulated weapons offences',
-            data: [places[4]['Prohibited and regulated weapons offences_predicted']*1, places[4]['Prohibited and regulated weapons offences_historical']*1]
+            data: [places[temp]['Prohibited and regulated weapons offences_predicted']*1, places[temp]['Prohibited and regulated weapons offences_historical']*1]
 
           }, {
             name: 'Disorderly conduct',
-            data: [places[4]['Disorderly conduct_predicted']*1, places[4]['Disorderly conduct_historical']*1]
+            data: [places[temp]['Disorderly conduct_predicted']*1, places[temp]['Disorderly conduct_historical']*1]
 
           }, {
             name: 'Betting and gaming offences',
-            data: [places[4]['Betting and gaming offences_predicted']*1, places[4]['Betting and gaming offences_historical']*1]
+            data: [places[temp]['Betting and gaming offences_predicted']*1, places[temp]['Betting and gaming offences_historical']*1]
 
           }, {
             name: 'Liquor offences',
-            data: [places[4]['Liquor offences_predicted']*1, places[4]['Liquor offences_historical']*1]
+            data: [places[temp]['Liquor offences_predicted']*1, places[temp]['Liquor offences_historical']*1]
 
           },{
             name: 'Pornography offences',
-            data: [places[4]['Pornography offences_predicted']*1, places[4]['Pornography offences_historical']*1]
+            data: [places[temp]['Pornography offences_predicted']*1, places[temp]['Pornography offences_historical']*1]
 
           },{
             name: 'Prostitution offences',
-            data: [places[4]['Prostitution offences_predicted']*1, places[4]['Prostitution offences_historical']*1]
+            data: [places[temp]['Prostitution offences_predicted']*1, places[temp]['Prostitution offences_historical']*1]
 
           },{
             name: 'Against justice procedures',
-            data: [places[4]['Against justice procedures_predicted']*1, places[4]['Against justice procedures_historical']*1]
+            data: [places[temp]['Against justice procedures_predicted']*1, places[temp]['Against justice procedures_historical']*1]
 
           },{
             name: 'Transport regulatory offences',
-            data: [places[4]['Transport regulatory offences_predicted']*1, places[4]['Transport regulatory offences_historical']*1]
+            data: [places[temp]['Transport regulatory offences_predicted']*1, places[temp]['Transport regulatory offences_historical']*1]
 
           },{
             name: 'Other offences',
-            data: [places[4]['Other offences_predicted']*1, places[4]['Other offences_historical']*1]
-          }
-        ]
-      },
-
-    }
+            data: [places[temp]['Other offences_predicted']*1, places[temp]['Other offences_historical']*1]
+          }] 
+    }})
+    console.log(this.state.options)
   }
-
   // changeState(){
   //   this.setState({temp: places[i]}) 
   // }
 
   render() {   
-     for (let i = 0; i < places.length; i++) {
-        
-        if (places[i].Title === 'Randwick'){
-          console.log(places[4]['Homicide_historical'])
-          //this.setState({temp: places[i]})
-          console.log(this.state.temp)
-        }    
-     }
 
     const tableHeaderColumns = this.state.columnData.map((column) => (
       <TableHeaderColumn 
@@ -194,15 +199,16 @@ class Results extends Component {
         <Jumbotron title="Results" subtitle="Your results"/>
         <div className="table-container">
           <h2>Results</h2>
+          <HighchartsReact
+            highcharts={Highcharts}
+            options={this.state.options}
+          />
+          <br />
           <BootstrapTable data={singleResult} striped={true} hover={true} pagination>
             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>ID</TableHeaderColumn>
             {tableHeaderColumns}
           </BootstrapTable>
         </div>
-        <HighchartsReact
-          highcharts={Highcharts}
-          options={this.state.options}
-        />
         <Footer />
       </div>
     );

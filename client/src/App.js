@@ -9,11 +9,11 @@ import Auth from './components/Auth';
 
 const auth = new Auth();
 
-const handleAuthentication = ({location}) => {
-  if (/access_token|id_token|error/.test(location.hash)) {
-    auth.handleAuthentication();
-  }
-}
+// const handleAuthentication = ({location}) => {
+//   if (/access_token|id_token|error/.test(location.hash)) {
+//     auth.handleAuthentication();
+//   }
+// }
 
 class App extends Component {
   render() {

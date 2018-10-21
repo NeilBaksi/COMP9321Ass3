@@ -1,5 +1,5 @@
 function genRand() {
-    const rand = Math.floor(Math.random() * 100);
+    const rand = Math.floor(Math.random() * 10);
     return rand
 }
 export default [
@@ -20,7 +20,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 1,
     Crime: 'Assault',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -36,7 +36,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 2,
     Crime: 'Sexual offences',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -52,7 +52,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 3,
     Crime: 'Abduction and kidnapping',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -68,7 +68,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 4,
     Crime: 'Robbery',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -84,7 +84,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 5,
     Crime: 'Blackmail and extortion',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -100,7 +100,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 6,
     Crime: 'Harassment, threatening behaviour and private nuisance',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -116,7 +116,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 7,
     Crime: 'Other offences against the person',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -132,7 +132,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 8,
     Crime: 'Theft',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -148,7 +148,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 9,
     Crime: 'Arson',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -164,7 +164,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 10,
     Crime: 'Malicious damage to property',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -180,7 +180,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 11,
     Crime: 'Drug offences',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -196,7 +196,7 @@ export default [
     'Dec 2012': genRand()
   },
   {
-    id: genRand(),
+    id: 12,
     Crime: 'Prohibited and regulated weapons offences',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),

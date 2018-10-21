@@ -110,9 +110,12 @@ class Search extends Component {
     let currCrim = this.state.currentCrime.title
     let map;
     
+    console.log(this.state.currentLocation)
+
     const { isAuthenticated } = this.props.auth;
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
+      localStorage.setItem('myData',this.state.currentLocation.id);
     } else {
       map = "https://www.google.com/maps/embed/v1/place?q=Sydney&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
     }
@@ -120,8 +123,7 @@ class Search extends Component {
     let stat;
     let stat2;
     if (currLoc && currCrim) {
-      console.log(this.state.flag)
-      if(this.state.flag == 0){
+      if(this.state.flag === 0){
         this.getData()
         this.getData2()
         
