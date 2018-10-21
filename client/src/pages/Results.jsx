@@ -45,12 +45,13 @@ class Results extends Component {
 
   componentWillMount() {
     this.setfromcache();
+    this.setState({currentLocation: places[temp].Title})
   }
 
   setfromcache(){
     let bs = localStorage.getItem('myData');
-    temp = bs;
-    this.setState({currentLocation: places[temp].Title, id: temp, options: {
+    temp = bs;  
+    this.setState({ id: temp, options: {
       chart: {
           type: 'column'
         },
@@ -173,7 +174,8 @@ class Results extends Component {
             data: [places[temp]['Other offences_predicted']*1, places[temp]['Other offences_historical']*1]
           }] 
     }})
-    console.log(this.state.options)
+  console.log(this.state.options)
+  
   }
   // changeState(){
   //   this.setState({temp: places[i]}) 
