@@ -8,6 +8,7 @@ import places from '../components/places.jsx';
 import crimes from '../components/crimes.jsx';
 import MonthPickerInput from 'react-month-picker-input';
 import {Grid, Row, Col } from 'react-bootstrap';
+import Auth from '../components/Auth.js';
 
 require('react-month-picker-input/dist/react-month-picker-input.css');
 
@@ -16,35 +17,44 @@ class Search extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      // currentLocation: {
-      //     Title: 'Sydney',
-      //   },
-      currentLocation: 'Sydney',
+      currentLocation: {
+          Title: 'Sydney',
+        },
+      // currentLocation: 'Sydney',
       currentCrime: 'Theft',
       location: places,
       crime: crimes,
-      data: []
+      data: {}
     }
     this.handleChange = this.handleChange.bind(this);
     this.getData = this.getData.bind(this);
   }
 
-  // componentWillMount() {
-  //   this.getData()
-  // }
+  componentWillMount() {
+    this.getData();
+  }
 
   handleChange(e) {
     this.setState({currentLocation:{Title: e.target.value}});
   };
 
-  getData(currLoc, currCrim) {
+  getData() {
     // let currLoc = this.state.currentLocation
     // let currCrim = this.state.currentCrime.title
-    console.log(currCrim)
+    // console.log(currCrim)
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
-    fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
+    // fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
+    // @Neil, make it more dynamic by passing on the current state of location and crime.
+    fetch('http://127.0.0.1:5000/Hurstville/Theft', {
+      method: "GET",
+      dataType: "JSON",
+      headers: {
+        "Content-Type": "application/json",
+      }
+    })
       .then(response => response.json())
-      .then(data => this.setState({data}))
+      .then(response => this.setState({data: response}))
+      // .then(response => {return response.json()})
       .catch(err => console.log)
   }
 
@@ -70,8 +80,9 @@ class Search extends Component {
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
     let map;
-    this.getData(currLoc, currCrim)
-    console.log(this.state.data)
+
+    console.log(this.state.data) //@Neil you have the data here, do some fancy shit.
+
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
     } else {
@@ -82,7 +93,12 @@ class Search extends Component {
     if (currLoc && currCrim) {
       stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
     }
-
+    // Check auth
+    // if (isAuthenticated()){
+    //   this.getData()
+    // } else {
+    //   console.log("Not autheticated")
+    // }
 
     return (
       <div>
@@ -92,8 +108,6 @@ class Search extends Component {
           <Row className="show-grid">
             <Col md={12}>
               <h2>Search</h2>
-              <p>Current {this.state.data}</p>
-              {/* <p>{this.getData}</p> */}
               <form>
                 <Typeahead
                   type="text"
