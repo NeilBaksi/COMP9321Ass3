@@ -56,15 +56,7 @@ class Home extends Component {
   }
 
   render() {
-    const auth = new Auth();
-    auth.login();
-
-    const handleAuthentication = (nextState, replace) => {
-      if (/access_token|id_token|error/.test(nextState.location.hash)) {
-        auth.handleAuthentication();
-      }
-    }
-    // console.log(handleAuthentication);
+    this.props.auth.login();
 
     const tableHeaderColumns = this.state.columnData.map((column) => (
       <TableHeaderColumn 

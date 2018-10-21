@@ -8,7 +8,6 @@ import places from '../components/places.jsx';
 import crimes from '../components/crimes.jsx';
 import MonthPickerInput from 'react-month-picker-input';
 import {Grid, Row, Col } from 'react-bootstrap';
-import Auth from '../components/Auth.js';
 
 require('react-month-picker-input/dist/react-month-picker-input.css');
 
@@ -24,14 +23,15 @@ class Search extends Component {
       currentCrime: 'Theft',
       location: places,
       crime: crimes,
-      data: {}
+      data: {},
+      auth: this.props.auth
     }
     this.handleChange = this.handleChange.bind(this);
     this.getData = this.getData.bind(this);
   }
 
   componentWillMount() {
-    this.getData();
+    // this.getData();
   }
 
   handleChange(e) {
@@ -39,22 +39,26 @@ class Search extends Component {
   };
 
   getData() {
+
+    const {getAccessToken} = this.props.auth;
+    // console.log(getAccessToken())
     // let currLoc = this.state.currentLocation
     // let currCrim = this.state.currentCrime.title
     // console.log(currCrim)
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
     // fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
     // @Neil, make it more dynamic by passing on the current state of location and crime.
-    fetch('http://127.0.0.1:5000/Hurstville/Theft', {
+    
+    fetch('http://127.0.0.1:5000/v/Hurstville/Theft', {
       method: "GET",
       dataType: "JSON",
       headers: {
         "Content-Type": "application/json",
+        // 'Authorization': `Bearer ${getAccessToken()}`,
       }
     })
       .then(response => response.json())
       .then(response => this.setState({data: response}))
-      // .then(response => {return response.json()})
       .catch(err => console.log)
   }
 
@@ -77,11 +81,11 @@ class Search extends Component {
 
 
   render() {
+    this.getData();
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
     let map;
-
-    console.log(this.state.data) //@Neil you have the data here, do some fancy shit.
+    const { isAuthenticated } = this.props.auth;
 
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
@@ -94,11 +98,11 @@ class Search extends Component {
       stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
     }
     // Check auth
-    // if (isAuthenticated()){
-    //   this.getData()
-    // } else {
-    //   console.log("Not autheticated")
-    // }
+    if (isAuthenticated()){
+      console.log(this.state.data) //@Neil you have the data here, do some fancy shit.
+    } else {
+      console.log("Not autheticated")
+    }
 
     return (
       <div>

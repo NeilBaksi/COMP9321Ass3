@@ -154,6 +154,7 @@ class Results extends Component {
         {col : 'Nov 2012'},
         {col : 'Dec 2012'},
       ],
+      auth: this.props.auth
     }
   }
 
