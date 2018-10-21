@@ -7,7 +7,6 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import places from '../components/places.jsx';
 import './table.css';
 import './Home.css';
-import Auth from '../components/Auth.js';
 
 // const signupWasClickedCallback = (data) => {
 //   console.log(data);

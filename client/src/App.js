@@ -21,10 +21,11 @@ class App extends Component {
       <Router>
         <div>
           <Route exact path="/" render={(props) => <Home auth={auth} {...props} />}/>
-          <Route path="/search" render={(props) => {
+          <Route exact path="/search" render={(props) => <Search auth={auth} {...props} />}/>
+          {/* <Route path="/search" render={(props) => {
               handleAuthentication(props);
               return <Search auth={auth}  {...props} /> 
-          }}/>          
+          }}/>           */}
           <Route path="/results" render={(props) => <Results auth={auth} {...props} />}/>
           <Route path="/contact" component={Contact}/>
         </div>

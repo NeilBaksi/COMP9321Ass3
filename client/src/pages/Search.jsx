@@ -44,7 +44,7 @@ class Search extends Component {
     const {getAccessToken} = this.props.auth;
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
-    
+    console.log(getAccessToken())
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
     // fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
     // @Neil, make it more dynamic by passing on the current state of location and crime.
@@ -55,7 +55,7 @@ class Search extends Component {
       dataType: "JSON",
       headers: {
         "Content-Type": "application/json",
-        // 'Authorization': `Bearer ${getAccessToken()}`,
+        'Authorization': `Bearer ${getAccessToken()}`,
       }
     })
       .then(response => response.json())
@@ -104,6 +104,7 @@ class Search extends Component {
     }
     // Check auth
     if (isAuthenticated()){
+      console.log("Working")
       console.log(this.state.data) //@Neil you have the data here, do some fancy shit.
     } else {
       console.log("Not autheticated")
