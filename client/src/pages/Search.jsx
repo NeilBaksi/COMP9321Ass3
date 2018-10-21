@@ -7,7 +7,7 @@ import {Typeahead} from 'react-bootstrap-typeahead';
 import places from '../components/places.jsx';
 import crimes from '../components/crimes.jsx';
 import MonthPickerInput from 'react-month-picker-input';
-import {Grid, Row, Col } from 'react-bootstrap';
+import {Grid, Row, Col, Button } from 'react-bootstrap';
 
 require('react-month-picker-input/dist/react-month-picker-input.css');
 
@@ -35,6 +35,7 @@ class Search extends Component {
   // componentWillMount() {
   //   this.getData();
   // }
+
 
   handleChange(e) {
     this.setState({currentLocation:{Title: e.target.value}});
@@ -137,12 +138,7 @@ class Search extends Component {
                 resetThenSet={this.resetThenSet}
               />
             </Col>
-            <Col md={6}>
-              {stat}
-              <br />
-            </Col>
           </Row>
-
           <Row>
             <Col md={3}>
               <div>
@@ -162,6 +158,18 @@ class Search extends Component {
                   }}
                 />
               </div>
+              <br />
+            </Col>
+            <Row>
+            <Col md={3}>
+              <div>
+                <Button href='/results' bsStyle="primary">Submit</Button>
+              </div>
+              <br />
+            </Col>
+          </Row>
+          <Col md={6}>
+              {stat}
               <br />
             </Col>
             <Col md={6}>

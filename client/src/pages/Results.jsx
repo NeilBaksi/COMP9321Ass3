@@ -155,7 +155,13 @@ class Results extends Component {
         {col : 'Dec 2012'},
       ],
       auth: this.props.auth
+
     }
+  }
+
+  onClick(event) {
+    const value = event.target.value;
+    this.props.onSubmit(value);
   }
 
   render() {   
@@ -170,13 +176,14 @@ class Results extends Component {
         {column.col}
       </TableHeaderColumn>
     ))
+    console.log(this.props.value)
 
     return (
       <div>
         <Navbar />
         <Jumbotron title="Results" subtitle="Your results"/>
         <div className="table-container">
-          <h2>Results</h2>
+          <h2>Results {this.props.value}</h2>
           <BootstrapTable data={singleResult} striped={true} hover={true} pagination>
             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>ID</TableHeaderColumn>
             {tableHeaderColumns}
