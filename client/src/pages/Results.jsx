@@ -75,87 +75,87 @@ class Results extends Component {
         series: [
           {
             name: 'Homicide',
-            data: [places[0]['Homicide_predicted']*1, places[0]['Homicide_historical']*1]
+            data: [places[4]['Homicide_predicted']*1, places[4]['Homicide_historical']*1]
 
           }, {
             name: 'Assault',
-            data: [places[0]['Assault_predicted']*1, places[0]['Assault_historical']*1]
+            data: [places[4]['Assault_predicted']*1, places[4]['Assault_historical']*1]
 
           }, {
             name: 'Robbery',
-            data: [places[0]['Robbery_predicted']*1, places[0]['Robbery_historical']*1]
+            data: [places[4]['Robbery_predicted']*1, places[4]['Robbery_historical']*1]
 
           }, {
             name: 'Theft',
-            data: [places[0]['Theft_predicted']*1, places[0]['Theft_historical']*1]
+            data: [places[4]['Theft_predicted']*1, places[4]['Theft_historical']*1]
 
           },{
             name: 'Sexual Offence',
-            data: [places[0]['Sexual Offence_predicted']*1, places[0]['Sexual Offence_historical']*1]
+            data: [places[4]['Sexual Offence_predicted']*1, places[4]['Sexual Offence_historical']*1]
 
           }, {
             name: 'Abduction and kidnapping',
-            data: [places[0]['Abduction and kidnapping_predicted']*1, places[0]['Abduction and kidnapping_historical']*1]
+            data: [places[4]['Abduction and kidnapping_predicted']*1, places[4]['Abduction and kidnapping_historical']*1]
 
           }, {
             name: 'Blackmail and extortion',
-            data: [places[0]['Blackmail and extortion_predicted']*1, places[0]['Blackmail and extortion_historical']*1]
+            data: [places[4]['Blackmail and extortion_predicted']*1, places[4]['Blackmail and extortion_historical']*1]
 
           }, {
             name: 'Harassment, threatening behaviour and private nuisance',
-            data: [places[0]['Harassment, threatening behaviour and private nuisance_predicted']*1, places[0]['Harassment, threatening behaviour and private nuisance_historical']*1]
+            data: [places[4]['Harassment, threatening behaviour and private nuisance_predicted']*1, places[4]['Harassment, threatening behaviour and private nuisance_historical']*1]
 
           },{
             name: 'Other offences against the person',
-            data: [places[0]['Other offences against the person_predicted']*1, places[0]['Other offences against the person_historical']*1]
+            data: [places[4]['Other offences against the person_predicted']*1, places[4]['Other offences against the person_historical']*1]
 
           }, {
             name: 'Arson',
-            data: [places[0]['Arson_predicted']*1, places[0]['Arson_historical']*1]
+            data: [places[4]['Arson_predicted']*1, places[4]['Arson_historical']*1]
 
           }, {
             name: 'Malicious damage to property',
-            data: [places[0]['Malicious damage to property_predicted']*1, places[0]['Malicious damage to property_historical']*1]
+            data: [places[4]['Malicious damage to property_predicted']*1, places[4]['Malicious damage to property_historical']*1]
 
           }, {
             name: 'Drug offences',
-            data: [places[0]['Drug offences_predicted']*1, places[0]['Drug offences_historical']*1]
+            data: [places[4]['Drug offences_predicted']*1, places[4]['Drug offences_historical']*1]
 
           },{
             name: 'Prohibited and regulated weapons offences',
-            data: [places[0]['Prohibited and regulated weapons offences_predicted']*1, places[0]['Prohibited and regulated weapons offences_historical']*1]
+            data: [places[4]['Prohibited and regulated weapons offences_predicted']*1, places[4]['Prohibited and regulated weapons offences_historical']*1]
 
           }, {
             name: 'Disorderly conduct',
-            data: [places[0]['Disorderly conduct_predicted']*1, places[0]['Disorderly conduct_historical']*1]
+            data: [places[4]['Disorderly conduct_predicted']*1, places[4]['Disorderly conduct_historical']*1]
 
           }, {
             name: 'Betting and gaming offences',
-            data: [places[0]['Betting and gaming offences_predicted']*1, places[0]['Betting and gaming offences_historical']*1]
+            data: [places[4]['Betting and gaming offences_predicted']*1, places[4]['Betting and gaming offences_historical']*1]
 
           }, {
             name: 'Liquor offences',
-            data: [places[0]['Liquor offences_predicted']*1, places[0]['Liquor offences_historical']*1]
+            data: [places[4]['Liquor offences_predicted']*1, places[4]['Liquor offences_historical']*1]
 
           },{
             name: 'Pornography offences',
-            data: [places[0]['Pornography offences_predicted']*1, places[0]['Pornography offences_historical']*1]
+            data: [places[4]['Pornography offences_predicted']*1, places[4]['Pornography offences_historical']*1]
 
           },{
             name: 'Prostitution offences',
-            data: [places[0]['Prostitution offences_predicted']*1, places[0]['Prostitution offences_historical']*1]
+            data: [places[4]['Prostitution offences_predicted']*1, places[4]['Prostitution offences_historical']*1]
 
           },{
             name: 'Against justice procedures',
-            data: [places[0]['Against justice procedures_predicted']*1, places[0]['Against justice procedures_historical']*1]
+            data: [places[4]['Against justice procedures_predicted']*1, places[4]['Against justice procedures_historical']*1]
 
           },{
             name: 'Transport regulatory offences',
-            data: [places[0]['Transport regulatory offences_predicted']*1, places[0]['Transport regulatory offences_historical']*1]
+            data: [places[4]['Transport regulatory offences_predicted']*1, places[4]['Transport regulatory offences_historical']*1]
 
           },{
             name: 'Other offences',
-            data: [places[0]['Other offences_predicted']*1, places[0]['Other offences_historical']*1]
+            data: [places[4]['Other offences_predicted']*1, places[4]['Other offences_historical']*1]
           }
         ]
       },
@@ -171,7 +171,7 @@ class Results extends Component {
      for (let i = 0; i < places.length; i++) {
         
         if (places[i].Title === 'Randwick'){
-          console.log(places[0]['Homicide_historical'])
+          console.log(places[4]['Homicide_historical'])
           //this.setState({temp: places[i]})
           console.log(this.state.temp)
         }    
