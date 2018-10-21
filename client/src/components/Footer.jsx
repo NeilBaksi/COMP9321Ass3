@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="table-container">
-          <span className="text-muted">My Website &#169; {new Date().getFullYear()}</span>
+          <span className="text-muted">Moose Crime App &#169; {new Date().getFullYear()}</span>
         </div>
       </footer>
     );

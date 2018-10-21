@@ -20,7 +20,9 @@ class Search extends Component {
           Title: 'Sydney',
         },
       // currentLocation: 'Sydney',
-      currentCrime: 'Theft',
+      currentCrime: {
+          title: 'Theft',
+        },
       location: places,
       crime: crimes,
       data: {},
@@ -30,26 +32,25 @@ class Search extends Component {
     this.getData = this.getData.bind(this);
   }
 
-  componentWillMount() {
-    // this.getData();
-  }
+  // componentWillMount() {
+  //   this.getData();
+  // }
 
   handleChange(e) {
     this.setState({currentLocation:{Title: e.target.value}});
   };
 
   getData() {
-
     const {getAccessToken} = this.props.auth;
-    // console.log(getAccessToken())
-    // let currLoc = this.state.currentLocation
-    // let currCrim = this.state.currentCrime.title
-    // console.log(currCrim)
+    let currLoc = this.state.currentLocation
+    let currCrim = this.state.currentCrime.title
+    
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
     // fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
     // @Neil, make it more dynamic by passing on the current state of location and crime.
-    
-    fetch('http://127.0.0.1:5000/v/Hurstville/Theft', {
+    let fetchReq = 'http://127.0.0.1:5000/' + currLoc.Title + '/' + currCrim 
+    console.log(fetchReq)
+    fetch(fetchReq, {
       method: "GET",
       dataType: "JSON",
       headers: {
@@ -85,7 +86,9 @@ class Search extends Component {
     let currLoc = this.state.currentLocation
     let currCrim = this.state.currentCrime.title
     let map;
+    
     const { isAuthenticated } = this.props.auth;
+    console.log(this.state.data.crime_rate) //@Neil you have the data here, do some fancy shit.
 
     if(currLoc){
       map = "https://www.google.com/maps/embed/v1/place?q="+currLoc.Title+"&key=AIzaSyDyWKb8MrWqGlMtGJt54mTMCXipHcs5UNs"
@@ -95,7 +98,9 @@ class Search extends Component {
         
     let stat;
     if (currLoc && currCrim) {
-      stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
+      //stat = <h2>{currCrim} in {currLoc.Title} : {currLoc[currCrim]}</h2>
+      stat = <h2>Rate of {currCrim} in {currLoc.Title} : {this.state.data.crime_rate}</h2>
+      this.getData()
     }
     // Check auth
     if (isAuthenticated()){
@@ -105,7 +110,7 @@ class Search extends Component {
     }
 
     return (
-      <div>
+      <div >
         <Navbar />
         <Jumbotron title="Search" subtitle="Search anything, it'll pop up on the map."/>
         <Grid>
@@ -125,23 +130,22 @@ class Search extends Component {
             </Col>
           </Row>
           <Row>
-            <Col md={8}>
+            <Col md={6}>
               <Dropdown
                 titleHelper="Crime"
-                title="Select crime"
+                title="Theft"
                 list={this.state.crime}
                 resetThenSet={this.resetThenSet}
               />
-              <br />
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               {stat}
               <br />
             </Col>
           </Row>
 
           <Row>
-            <Col md={4}>
+            <Col md={3}>
               <div>
                 <MonthPickerInput
                   onChange={function(maskedValue, selectedYear, selectedMonth) {
@@ -151,7 +155,7 @@ class Search extends Component {
                 <br />
               </div>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <div>
                 <MonthPickerInput
                   onChange={function(maskedValue, selectedYear, selectedMonth) {
@@ -161,7 +165,7 @@ class Search extends Component {
               </div>
               <br />
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               <iframe width="600" height="450" frameBorder="0" src={map} allowFullScreen></iframe>
             </Col>
           </Row>
