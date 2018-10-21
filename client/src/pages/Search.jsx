@@ -46,8 +46,6 @@ class Search extends Component {
     let currCrim = this.state.currentCrime.title
     console.log(getAccessToken())
     // example call: fetch('http:127.0.0.1:5000/Randwick/Theft)
-    // fetch('http://127.0.0.1:5000/' + {currLoc} + '/' + {currCrim})
-    // @Neil, make it more dynamic by passing on the current state of location and crime.
     let fetchReq = 'http://127.0.0.1:5000/' + currLoc.Title + '/' + currCrim 
     console.log(fetchReq)
     fetch(fetchReq, {
@@ -105,7 +103,7 @@ class Search extends Component {
     // Check auth
     if (isAuthenticated()){
       console.log("Working")
-      console.log(this.state.data) //@Neil you have the data here, do some fancy shit.
+      console.log(this.state.data)
     } else {
       console.log("Not autheticated")
     }
