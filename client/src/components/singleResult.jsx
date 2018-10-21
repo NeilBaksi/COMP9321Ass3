@@ -13,11 +13,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -29,11 +29,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -45,11 +45,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -61,11 +61,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -77,11 +77,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -93,11 +93,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -109,11 +109,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: genRand(),
@@ -125,14 +125,14 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
-    id: 8,
+    id: genRand(),
     Crime: 'Theft',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -141,14 +141,14 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
-    id: 9,
+    id: genRand(),
     Crime: 'Arson',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -157,14 +157,14 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
-    id: 10,
+    id: genRand(),
     Crime: 'Malicious damage to property',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -173,14 +173,14 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
-    id: 11,
+    id: genRand(),
     Crime: 'Drug offences',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -189,14 +189,14 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
-    id: 12,
+    id: genRand(),
     Crime: 'Prohibited and regulated weapons offences',
     'Jan 2012' : genRand(),
     'Feb 2012' : genRand(),
@@ -205,11 +205,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 13,
@@ -221,11 +221,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 14,
@@ -237,11 +237,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 15,
@@ -253,11 +253,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 16,
@@ -269,11 +269,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 17,
@@ -285,11 +285,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 18,
@@ -301,11 +301,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 19,
@@ -317,11 +317,11 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
   {
     id: 20,
@@ -333,10 +333,10 @@ export default [
     'May 2012' : genRand(),
     'Jun 2012' : genRand(),
     'Jul 2012' : genRand(),
-    'Aug 2012' : 8,
-    'Sep 2012' : 9,
-    'Oct 2012' : 10,
-    'Nov 2012' : 11,
-    'Dec 2012': 12
+    'Aug 2012' : genRand(),
+    'Sep 2012' : genRand(),
+    'Oct 2012' : genRand(),
+    'Nov 2012' : genRand(),
+    'Dec 2012': genRand()
   },
 ]
