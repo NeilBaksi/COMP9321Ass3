@@ -105,7 +105,7 @@ class SecPredictCrime(Resource):
     @requires_auth
     def get(self, location, crime_type):
         crime_rate = get_crime_prediction(location,crime_type)
-        print(f'crime rate is {crime_rate}')
+        #print(f'crime rate is {crime_rate}')
         return {'crimetype': crime_type, 'location':location, 'crime_rate':crime_rate}
 
 @api.route('/<string:location>/<string:crime_type>')
